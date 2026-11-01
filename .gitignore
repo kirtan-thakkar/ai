@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+dist/
+.DS_Store
+
+# Reference templates & local artifacts
+CampusFlow*.pptx
+extracted_imgs/
+recommendations_fixed.png
