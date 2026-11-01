@@ -1,0 +1,3168 @@
+[
+  {
+    "id": "m_inception",
+    "title": "Inception",
+    "release_year": 2010,
+    "runtime": 148,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Thriller"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "intense action violence",
+      "perilous situations",
+      "brief language"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy"
+    ],
+    "franchise": null,
+    "themes": [
+      "heist",
+      "dreams",
+      "subconscious",
+      "loss",
+      "reality_vs_illusion"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.8,
+      "intense": 0.9,
+      "thoughtful": 0.95,
+      "feel_good": 0.4
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "imdb_rating": 8.8,
+    "poster_url": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "mind_bending",
+      "dream_architecture",
+      "time_dilation",
+      "hans_zimmer_score"
+    ]
+  },
+  {
+    "id": "m_interstellar",
+    "title": "Interstellar",
+    "release_year": 2014,
+    "runtime": 169,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Adventure"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "intense space peril",
+      "brief strong language"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+    ],
+    "franchise": null,
+    "themes": [
+      "space_exploration",
+      "black_hole",
+      "time_dilation",
+      "parental_love",
+      "survival"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.6,
+      "intense": 0.85,
+      "thoughtful": 1.0,
+      "feel_good": 0.6
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+    "imdb_rating": 8.7,
+    "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "wormhole",
+      "cosmic",
+      "relativity",
+      "emotional_tearjerker"
+    ]
+  },
+  {
+    "id": "m_the_dark_knight",
+    "title": "The Dark Knight",
+    "release_year": 2008,
+    "runtime": 152,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "intense sequences of violence and menace",
+      "psychological terror"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Gary Oldman"
+    ],
+    "franchise": "DC",
+    "themes": [
+      "chaos_vs_order",
+      "morality",
+      "hero_vs_villain",
+      "corruption"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 0.9,
+      "intense": 0.95,
+      "thoughtful": 0.85,
+      "feel_good": 0.3
+    },
+    "frame_type": "DCFilm",
+    "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "imdb_rating": 9.0,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "joker",
+      "batman",
+      "philosophical_conflict",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "m_oppenheimer",
+    "title": "Oppenheimer",
+    "release_year": 2023,
+    "runtime": 180,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "some sexuality and nudity",
+      "intense historical peril",
+      "strong language"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon",
+      "Robert Downey Jr."
+    ],
+    "franchise": null,
+    "themes": [
+      "atomic_bomb",
+      "moral_consequences",
+      "politics",
+      "scientific_ethics"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.5,
+      "intense": 0.9,
+      "thoughtful": 1.0,
+      "feel_good": 0.2
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+    "imdb_rating": 8.9,
+    "poster_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "trinity_test",
+      "historical_drama",
+      "quantum_mechanics",
+      "manhattan_project"
+    ]
+  },
+  {
+    "id": "m_memento",
+    "title": "Memento",
+    "release_year": 2000,
+    "runtime": 113,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "violence",
+      "language",
+      "some sexual content"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Guy Pearce",
+      "Carrie-Anne Moss",
+      "Joe Pantoliano"
+    ],
+    "franchise": null,
+    "themes": [
+      "amnesia",
+      "deception",
+      "nonlinear_storytelling",
+      "memory_unreliability"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.6,
+      "intense": 0.9,
+      "thoughtful": 0.95,
+      "feel_good": 0.2
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "A man with short-term memory loss attempts to track down his wife's murderer using photographs and tattoos.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "reverse_chronology",
+      "noir",
+      "twist_ending"
+    ]
+  },
+  {
+    "id": "m_dune_part_1",
+    "title": "Dune: Part One",
+    "release_year": 2021,
+    "runtime": 155,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Action"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "sequences of strong violence",
+      "disturbing images",
+      "suggestive material"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Timoth\u00e9e Chalamet",
+      "Rebecca Ferguson",
+      "Oscar Isaac",
+      "Zendaya"
+    ],
+    "franchise": "Dune",
+    "themes": [
+      "desert_planet",
+      "prophecy",
+      "planetary_politics",
+      "spice_melange"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.7,
+      "intense": 0.85,
+      "thoughtful": 0.9,
+      "feel_good": 0.4
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal.",
+    "imdb_rating": 8.0,
+    "poster_url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "sandworms",
+      "arrakis",
+      "epic_worldbuilding",
+      "cinematography"
+    ]
+  },
+  {
+    "id": "m_dune_part_2",
+    "title": "Dune: Part Two",
+    "release_year": 2024,
+    "runtime": 166,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "sequences of strong violence",
+      "brief suggestive material"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Timoth\u00e9e Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson",
+      "Javier Bardem",
+      "Austin Butler"
+    ],
+    "franchise": "Dune",
+    "themes": [
+      "holy_war",
+      "revenge",
+      "messianic_curse",
+      "desert_power"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.9,
+      "intense": 0.95,
+      "thoughtful": 0.9,
+      "feel_good": 0.4
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+    "imdb_rating": 8.6,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "fremen",
+      "desert_warfare",
+      "paul_atreides",
+      "spectacle"
+    ]
+  },
+  {
+    "id": "m_blade_runner_2049",
+    "title": "Blade Runner 2049",
+    "release_year": 2017,
+    "runtime": 164,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Sci-Fi",
+      "Mystery",
+      "Drama"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "violence",
+      "some sexuality",
+      "nudity",
+      "language"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas",
+      "Sylvia Hoeks"
+    ],
+    "franchise": null,
+    "themes": [
+      "cyberpunk",
+      "artificial_intelligence",
+      "soul_and_identity",
+      "dystopia"
+    ],
+    "mood_scores": {
+      "chill": 0.5,
+      "energetic": 0.5,
+      "intense": 0.8,
+      "thoughtful": 0.95,
+      "feel_good": 0.3
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+    "imdb_rating": 8.0,
+    "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "replicants",
+      "neon_aesthetic",
+      "existential_noir",
+      "synth_score"
+    ]
+  },
+  {
+    "id": "m_arrival",
+    "title": "Arrival",
+    "release_year": 2016,
+    "runtime": 116,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Mystery"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "brief strong language",
+      "thematic elements"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker"
+    ],
+    "franchise": null,
+    "themes": [
+      "linguistics",
+      "first_contact",
+      "nonlinear_time",
+      "grief_and_love"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.4,
+      "intense": 0.75,
+      "thoughtful": 1.0,
+      "feel_good": 0.6
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "imdb_rating": 7.9,
+    "poster_url": "https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "heptapods",
+      "linguistic_relativity",
+      "emotional_sci_fi"
+    ]
+  },
+  {
+    "id": "m_the_matrix",
+    "title": "The Matrix",
+    "release_year": 1999,
+    "runtime": 136,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "sci-fi violence and action",
+      "brief language"
+    ],
+    "directors": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving"
+    ],
+    "franchise": null,
+    "themes": [
+      "simulated_reality",
+      "artificial_intelligence",
+      "chosen_one",
+      "cyberpunk"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.95,
+      "intense": 0.85,
+      "thoughtful": 0.85,
+      "feel_good": 0.5
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "imdb_rating": 8.7,
+    "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "bullet_time",
+      "red_pill",
+      "kung_fu",
+      "iconic"
+    ]
+  },
+  {
+    "id": "m_shutter_island",
+    "title": "Shutter Island",
+    "release_year": 2010,
+    "runtime": 138,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "disturbing violent content",
+      "some nudity",
+      "language"
+    ],
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "cast": [
+      "Leonardo DiCaprio",
+      "Mark Ruffalo",
+      "Ben Kingsley",
+      "Michelle Williams"
+    ],
+    "franchise": null,
+    "themes": [
+      "psychological_delusion",
+      "guilt",
+      "isolated_asylum",
+      "investigation"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 0.6,
+      "intense": 0.95,
+      "thoughtful": 0.9,
+      "feel_good": 0.1
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+    "imdb_rating": 8.2,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "asylum",
+      "mind_games",
+      "shocking_revelation"
+    ]
+  },
+  {
+    "id": "m_parasite",
+    "title": "Parasite",
+    "release_year": 2019,
+    "runtime": 132,
+    "language": "ko",
+    "country": "South Korea",
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Comedy"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "some strong violence and language",
+      "sexual content"
+    ],
+    "directors": [
+      "Bong Joon Ho"
+    ],
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik"
+    ],
+    "franchise": null,
+    "themes": [
+      "class_divide",
+      "deception",
+      "social_inequality",
+      "dark_satire"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.7,
+      "intense": 0.9,
+      "thoughtful": 0.95,
+      "feel_good": 0.3
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "imdb_rating": 8.5,
+    "poster_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "palme_dor",
+      "oscar_best_picture",
+      "korean_masterpiece",
+      "metaphor"
+    ]
+  },
+  {
+    "id": "m_knives_out",
+    "title": "Knives Out",
+    "release_year": 2019,
+    "runtime": 130,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "brief violence",
+      "some strong language",
+      "suggestive material"
+    ],
+    "directors": [
+      "Rian Johnson"
+    ],
+    "cast": [
+      "Daniel Craig",
+      "Ana de Armas",
+      "Chris Evans",
+      "Jamie Lee Curtis"
+    ],
+    "franchise": null,
+    "themes": [
+      "whodunit",
+      "family_inheritance",
+      "clever_detective",
+      "deception"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.7,
+      "intense": 0.6,
+      "thoughtful": 0.8,
+      "feel_good": 0.8
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "A detective investigates the death of a patriarch of an eccentric, combative family.",
+    "imdb_rating": 7.9,
+    "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "benoit_blanc",
+      "mansion_mystery",
+      "witty_banter",
+      "cozy_thriller"
+    ]
+  },
+  {
+    "id": "m_se7en",
+    "title": "Se7en",
+    "release_year": 1995,
+    "runtime": 127,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "severe",
+    "content_descriptors": [
+      "gruesome violent crimes",
+      "grim thematic material",
+      "strong language"
+    ],
+    "directors": [
+      "David Fincher"
+    ],
+    "cast": [
+      "Brad Pitt",
+      "Morgan Freeman",
+      "Gwyneth Paltrow",
+      "Kevin Spacey"
+    ],
+    "franchise": null,
+    "themes": [
+      "seven_deadly_sins",
+      "nihilism",
+      "serial_killer",
+      "police_procedural"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 0.6,
+      "intense": 1.0,
+      "thoughtful": 0.85,
+      "feel_good": 0.1
+    },
+    "frame_type": "DarkCrimeDramaFilm",
+    "overview": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+    "imdb_rating": 8.6,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "what_is_in_the_box",
+      "gritty_noir",
+      "fincher"
+    ]
+  },
+  {
+    "id": "m_mad_max_fury_road",
+    "title": "Mad Max: Fury Road",
+    "release_year": 2015,
+    "runtime": 120,
+    "language": "en",
+    "country": "Australia",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "intense sequences of violence throughout",
+      "disturbing images"
+    ],
+    "directors": [
+      "George Miller"
+    ],
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult",
+      "Hugh Keays-Byrne"
+    ],
+    "franchise": null,
+    "themes": [
+      "post_apocalyptic",
+      "high_octane_chase",
+      "rebellion",
+      "wasteland"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 1.0,
+      "intense": 0.95,
+      "thoughtful": 0.5,
+      "feel_good": 0.6
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "practical_stunts",
+      "flame_guitar",
+      "furiosa",
+      "kinetic_cinema"
+    ]
+  },
+  {
+    "id": "m_top_gun_maverick",
+    "title": "Top Gun: Maverick",
+    "release_year": 2022,
+    "runtime": 130,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "sequences of intense action",
+      "some strong language"
+    ],
+    "directors": [
+      "Joseph Kosinski"
+    ],
+    "cast": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Jennifer Connelly",
+      "Jon Hamm"
+    ],
+    "franchise": null,
+    "themes": [
+      "aviation",
+      "mentorship",
+      "overcoming_past_trauma",
+      "impossible_mission"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.95,
+      "intense": 0.8,
+      "thoughtful": 0.6,
+      "feel_good": 0.9
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on an impossible mission.",
+    "imdb_rating": 8.3,
+    "poster_url": "https://images.unsplash.com/photo-1519074069444-1ba4e41b2123?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "jet_fighter",
+      "crowd_pleaser",
+      "adrenaline",
+      "tom_cruise"
+    ]
+  },
+  {
+    "id": "m_john_wick_4",
+    "title": "John Wick: Chapter 4",
+    "release_year": 2023,
+    "runtime": 169,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "severe",
+    "content_descriptors": [
+      "pervasive strong violence and some language"
+    ],
+    "directors": [
+      "Chad Stahelski"
+    ],
+    "cast": [
+      "Keanu Reeves",
+      "Donnie Yen",
+      "Bill Skarsg\u00e5rd",
+      "Laurence Fishburne"
+    ],
+    "franchise": "John Wick",
+    "themes": [
+      "gun_fu",
+      "high_table",
+      "assassin_underworld",
+      "honor"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 1.0,
+      "intense": 0.9,
+      "thoughtful": 0.4,
+      "feel_good": 0.5
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe.",
+    "imdb_rating": 7.7,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "choreography",
+      "neon_paris",
+      "paris_stairs",
+      "action_spectacle"
+    ]
+  },
+  {
+    "id": "m_avengers_endgame",
+    "title": "Avengers: Endgame",
+    "release_year": 2019,
+    "runtime": 181,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "sequences of sci-fi violence and action",
+      "language and some suggestive references"
+    ],
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ],
+    "franchise": "Marvel",
+    "themes": [
+      "time_heist",
+      "sacrifice",
+      "multiverse",
+      "teamwork",
+      "infinity_stones"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.9,
+      "intense": 0.85,
+      "thoughtful": 0.7,
+      "feel_good": 0.8
+    },
+    "frame_type": "MarvelFilm",
+    "overview": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "portals",
+      "thanos",
+      "climax",
+      "iron_man"
+    ]
+  },
+  {
+    "id": "m_spider_verse_1",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "release_year": 2018,
+    "runtime": 117,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "frenetic sequences of animated action violence",
+      "thematic elements",
+      "mild language"
+    ],
+    "directors": [
+      "Bob Persichetti",
+      "Peter Ramsey",
+      "Rodney Rothman"
+    ],
+    "cast": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld",
+      "Mahershala Ali"
+    ],
+    "franchise": "Marvel",
+    "themes": [
+      "coming_of_age",
+      "multiverse",
+      "heroism",
+      "family_expectations"
+    ],
+    "mood_scores": {
+      "chill": 0.5,
+      "energetic": 0.95,
+      "intense": 0.6,
+      "thoughtful": 0.75,
+      "feel_good": 0.9
+    },
+    "frame_type": "MarvelFilm",
+    "overview": "Teen Miles Morales becomes the new Spider-Man and joins other Spider-Heroes from parallel universes to stop a menace that threatens all of reality.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "leap_of_faith",
+      "comic_book_art",
+      "groundbreaking_animation",
+      "soundtrack"
+    ]
+  },
+  {
+    "id": "m_grand_budapest_hotel",
+    "title": "The Grand Budapest Hotel",
+    "release_year": 2014,
+    "runtime": 99,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Crime"
+    ],
+    "age_rating": "R",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "language",
+      "some sexual content",
+      "brief violent images"
+    ],
+    "directors": [
+      "Wes Anderson"
+    ],
+    "cast": [
+      "Ralph Fiennes",
+      "Tony Revolori",
+      "Saoirse Ronan",
+      "Willem Dafoe"
+    ],
+    "franchise": null,
+    "themes": [
+      "friendship",
+      "nostalgia",
+      "heist",
+      "eccentric_characters"
+    ],
+    "mood_scores": {
+      "chill": 0.8,
+      "energetic": 0.7,
+      "intense": 0.3,
+      "thoughtful": 0.7,
+      "feel_good": 0.85
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "symmetry",
+      "pastel_palette",
+      "wes_anderson",
+      "whimsical"
+    ]
+  },
+  {
+    "id": "m_paddington_2",
+    "title": "Paddington 2",
+    "release_year": 2017,
+    "runtime": 103,
+    "language": "en",
+    "country": "UK",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "age_rating": "PG",
+    "violence_level": "none",
+    "content_descriptors": [
+      "mild comic action and rude humor"
+    ],
+    "directors": [
+      "Paul King"
+    ],
+    "cast": [
+      "Ben Whishaw",
+      "Hugh Grant",
+      "Hugh Bonneville",
+      "Sally Hawkins"
+    ],
+    "franchise": null,
+    "themes": [
+      "kindness",
+      "family",
+      "prison_reformation",
+      "marmalade"
+    ],
+    "mood_scores": {
+      "chill": 0.9,
+      "energetic": 0.6,
+      "intense": 0.1,
+      "thoughtful": 0.5,
+      "feel_good": 1.0
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "Paddington, now happily settled with the Brown family, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy's 100th birthday, only for the gift to be stolen.",
+    "imdb_rating": 7.8,
+    "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "wholesome",
+      "pure_joy",
+      "comfort_movie",
+      "london"
+    ]
+  },
+  {
+    "id": "m_everything_everywhere",
+    "title": "Everything Everywhere All at Once",
+    "release_year": 2022,
+    "runtime": 139,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "some violence and sexual references",
+      "pervasive language"
+    ],
+    "directors": [
+      "Daniel Kwan",
+      "Daniel Scheinert"
+    ],
+    "cast": [
+      "Michelle Yeoh",
+      "Stephanie Hsu",
+      "Ke Huy Quan",
+      "Jamie Lee Curtis"
+    ],
+    "franchise": null,
+    "themes": [
+      "multiverse",
+      "absurdism",
+      "nihilism_vs_kindness",
+      "mother_daughter",
+      "immigrant_experience"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.95,
+      "intense": 0.75,
+      "thoughtful": 0.95,
+      "feel_good": 0.85
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+    "imdb_rating": 7.8,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "bagel_of_destiny",
+      "hotdog_fingers",
+      "googly_eyes",
+      "existential_love"
+    ]
+  },
+  {
+    "id": "m_truman_show",
+    "title": "The Truman Show",
+    "release_year": 1998,
+    "runtime": 103,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG",
+    "violence_level": "none",
+    "content_descriptors": [
+      "thematic elements",
+      "mild language"
+    ],
+    "directors": [
+      "Peter Weir"
+    ],
+    "cast": [
+      "Jim Carrey",
+      "Ed Harris",
+      "Laura Linney",
+      "Noah Emmerich"
+    ],
+    "franchise": null,
+    "themes": [
+      "simulated_reality",
+      "media_surveillance",
+      "free_will",
+      "authenticity"
+    ],
+    "mood_scores": {
+      "chill": 0.7,
+      "energetic": 0.5,
+      "intense": 0.6,
+      "thoughtful": 0.95,
+      "feel_good": 0.8
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "An insurance salesman discovers his entire life is actually a reality television show broadcast to the world.",
+    "imdb_rating": 8.2,
+    "poster_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "in_case_i_dont_see_ya",
+      "reality_tv_satire",
+      "heartfelt"
+    ]
+  },
+  {
+    "id": "m_la_la_land",
+    "title": "La La Land",
+    "release_year": 2016,
+    "runtime": 128,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "none",
+    "content_descriptors": [
+      "some language"
+    ],
+    "directors": [
+      "Damien Chazelle"
+    ],
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend",
+      "Rosemarie DeWitt"
+    ],
+    "franchise": null,
+    "themes": [
+      "artistic_passion",
+      "dreams_vs_love",
+      "jazz",
+      "nostalgia",
+      "hollywood"
+    ],
+    "mood_scores": {
+      "chill": 0.7,
+      "energetic": 0.7,
+      "intense": 0.4,
+      "thoughtful": 0.75,
+      "feel_good": 0.75
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "imdb_rating": 8.0,
+    "poster_url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "musical",
+      "city_of_stars",
+      "epilogue_waltz",
+      "melancholy_romance"
+    ]
+  },
+  {
+    "id": "m_eternal_sunshine",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "release_year": 2004,
+    "runtime": 108,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "age_rating": "R",
+    "violence_level": "none",
+    "content_descriptors": [
+      "language",
+      "some drug and sexual references"
+    ],
+    "directors": [
+      "Michel Gondry"
+    ],
+    "cast": [
+      "Jim Carrey",
+      "Kate Winslet",
+      "Kirsten Dunst",
+      "Mark Ruffalo"
+    ],
+    "franchise": null,
+    "themes": [
+      "erasing_memories",
+      "pain_of_heartbreak",
+      "fate",
+      "acceptance"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.4,
+      "intense": 0.65,
+      "thoughtful": 0.95,
+      "feel_good": 0.65
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+    "imdb_rating": 8.3,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "montauk",
+      "lacuna",
+      "surreal_romance",
+      "kaufman_script"
+    ]
+  },
+  {
+    "id": "m_spirited_away",
+    "title": "Spirited Away",
+    "release_year": 2001,
+    "runtime": 125,
+    "language": "ja",
+    "country": "Japan",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "some scary scenes and creepy characters"
+    ],
+    "directors": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+    ],
+    "franchise": null,
+    "themes": [
+      "spirit_world",
+      "courage",
+      "greed_vs_purity",
+      "bathhouse",
+      "identity"
+    ],
+    "mood_scores": {
+      "chill": 0.7,
+      "energetic": 0.6,
+      "intense": 0.5,
+      "thoughtful": 0.85,
+      "feel_good": 0.9
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+    "imdb_rating": 8.6,
+    "poster_url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "haku",
+      "no_face",
+      "ghibli_magic",
+      "oscar_winner"
+    ]
+  },
+  {
+    "id": "m_coco",
+    "title": "Coco",
+    "release_year": 2017,
+    "runtime": 105,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "age_rating": "PG",
+    "violence_level": "none",
+    "content_descriptors": [
+      "thematic elements"
+    ],
+    "directors": [
+      "Lee Unkrich",
+      "Adrian Molina"
+    ],
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael Garc\u00eda Bernal",
+      "Benjamin Bratt"
+    ],
+    "franchise": null,
+    "themes": [
+      "day_of_the_dead",
+      "family_ancestry",
+      "passion_for_music",
+      "memory"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.7,
+      "intense": 0.4,
+      "thoughtful": 0.75,
+      "feel_good": 0.95
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "remember_me",
+      "land_of_dead",
+      "pixar_heart",
+      "marigold_bridge"
+    ]
+  },
+  {
+    "id": "m_totoro",
+    "title": "My Neighbor Totoro",
+    "release_year": 1988,
+    "runtime": 86,
+    "language": "ja",
+    "country": "Japan",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "age_rating": "G",
+    "violence_level": "none",
+    "content_descriptors": [
+      "all ages entertainment"
+    ],
+    "directors": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Noriko Hidaka",
+      "Chika Sakamoto",
+      "Hitoshi Takagi"
+    ],
+    "franchise": null,
+    "themes": [
+      "nature_spirits",
+      "childhood_wonder",
+      "rural_japan",
+      "sisterhood"
+    ],
+    "mood_scores": {
+      "chill": 1.0,
+      "energetic": 0.4,
+      "intense": 0.05,
+      "thoughtful": 0.6,
+      "feel_good": 1.0
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "catbus",
+      "forest_spirit",
+      "comfort_classic",
+      "peaceful"
+    ]
+  },
+  {
+    "id": "m_3_idiots",
+    "title": "3 Idiots",
+    "release_year": 2009,
+    "runtime": 170,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "thematic elements about academic stress",
+      "some crude humor"
+    ],
+    "directors": [
+      "Rajkumar Hirani"
+    ],
+    "cast": [
+      "Aamir Khan",
+      "R. Madhavan",
+      "Sharman Joshi",
+      "Kareena Kapoor",
+      "Boman Irani"
+    ],
+    "franchise": null,
+    "themes": [
+      "education_system",
+      "passion_vs_conformity",
+      "lifelong_friendship",
+      "success_vs_excellence"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.8,
+      "intense": 0.4,
+      "thoughtful": 0.9,
+      "feel_good": 0.95
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "Two friends embark on a quest to find a lost buddy. Along the way, they recall their college days and the friend who inspired them to think differently, upon whom the world called 'idiot'.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "all_izz_well",
+      "rancho",
+      "engineering_life",
+      "cult_classic"
+    ]
+  },
+  {
+    "id": "m_rrr",
+    "title": "RRR",
+    "release_year": 2022,
+    "runtime": 187,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "intense historical action violence",
+      "peril"
+    ],
+    "directors": [
+      "S.S. Rajamouli"
+    ],
+    "cast": [
+      "N.T. Rama Rao Jr.",
+      "Ram Charan",
+      "Alia Bhatt",
+      "Ajay Devgn"
+    ],
+    "franchise": null,
+    "themes": [
+      "anti_colonialism",
+      "brotherhood",
+      "mythic_heroism",
+      "freedom_struggle"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 1.0,
+      "intense": 0.9,
+      "thoughtful": 0.5,
+      "feel_good": 0.85
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "A fictitious story about two legendary revolutionaries and their journey away from home before they began fighting for their country in the 1920s.",
+    "imdb_rating": 7.8,
+    "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "naatu_naatu",
+      "fire_and_water",
+      "rajamouli",
+      "epic_scale"
+    ]
+  },
+  {
+    "id": "m_andhadhun",
+    "title": "Andhadhun",
+    "release_year": 2018,
+    "runtime": 139,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller",
+      "Comedy"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "violence",
+      "some language",
+      "suspenseful scenes"
+    ],
+    "directors": [
+      "Sriram Raghavan"
+    ],
+    "cast": [
+      "Ayushmann Khurrana",
+      "Tabu",
+      "Radhika Apte",
+      "Anil Dhawan"
+    ],
+    "franchise": null,
+    "themes": [
+      "fake_blindness",
+      "murder_witness",
+      "black_comedy",
+      "piano_tunes"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.75,
+      "intense": 0.85,
+      "thoughtful": 0.8,
+      "feel_good": 0.5
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "A series of mysterious events changes the life of a blind pianist who now must report a crime that should technically be impossible for him to have seen.",
+    "imdb_rating": 8.2,
+    "poster_url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "piano",
+      "twist_and_turns",
+      "dark_satire",
+      "tabu"
+    ]
+  },
+  {
+    "id": "m_tumbbad",
+    "title": "Tumbbad",
+    "release_year": 2018,
+    "runtime": 104,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "frightening scenes",
+      "gore and visceral creature imagery"
+    ],
+    "directors": [
+      "Rahi Anil Barve",
+      "Anand Gandhi"
+    ],
+    "cast": [
+      "Sohum Shah",
+      "Jyoti Malshe",
+      "Anita Date-Kelkar"
+    ],
+    "franchise": null,
+    "themes": [
+      "greed",
+      "ancient_mythology",
+      "hastar_curse",
+      "generational_obsession"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.6,
+      "intense": 0.95,
+      "thoughtful": 0.85,
+      "feel_good": 0.2
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "A mythological story about a human who builds a shrine for Hastar, an ancient malevolent deity who should never be worshiped, in order to steal golden coins.",
+    "imdb_rating": 8.2,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "atmospheric_horror",
+      "monsoon_rain",
+      "hastar",
+      "folk_horror"
+    ]
+  },
+  {
+    "id": "m_dangal",
+    "title": "Dangal",
+    "release_year": 2016,
+    "runtime": 161,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "sports wrestling violence",
+      "emotional intensity"
+    ],
+    "directors": [
+      "Nitesh Tiwari"
+    ],
+    "cast": [
+      "Aamir Khan",
+      "Fatima Sana Shaikh",
+      "Sanya Malhotra",
+      "Sakshi Tanwar"
+    ],
+    "franchise": null,
+    "themes": [
+      "sports_wrestling",
+      "female_empowerment",
+      "father_daughter",
+      "discipline"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.85,
+      "intense": 0.7,
+      "thoughtful": 0.75,
+      "feel_good": 0.9
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "Former wrestler Mahavir Singh Phogat trains his daughters Geeta and Babita to become world-class wrestlers against all societal prejudice.",
+    "imdb_rating": 8.3,
+    "poster_url": "https://images.unsplash.com/photo-1519074069444-1ba4e41b2123?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "commonwealth_games",
+      "akhada",
+      "inspirational",
+      "true_story"
+    ]
+  },
+  {
+    "id": "m_godfather_1",
+    "title": "The Godfather",
+    "release_year": 1972,
+    "runtime": 175,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "violence and blood",
+      "language",
+      "some sexual content"
+    ],
+    "directors": [
+      "Francis Ford Coppola"
+    ],
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Robert Duvall"
+    ],
+    "franchise": null,
+    "themes": [
+      "mafia_family",
+      "power_corruption",
+      "father_son_dynasty",
+      "loyalty"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.5,
+      "intense": 0.9,
+      "thoughtful": 0.95,
+      "feel_good": 0.4
+    },
+    "frame_type": "DarkCrimeDramaFilm",
+    "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant youngest son.",
+    "imdb_rating": 9.2,
+    "poster_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "corleone",
+      "offer_he_cant_refuse",
+      "cinematic_royalty"
+    ]
+  },
+  {
+    "id": "m_pulp_fiction",
+    "title": "Pulp Fiction",
+    "release_year": 1994,
+    "runtime": 154,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "age_rating": "R",
+    "violence_level": "severe",
+    "content_descriptors": [
+      "strong brutal violence and language",
+      "drug use and sexuality"
+    ],
+    "directors": [
+      "Quentin Tarantino"
+    ],
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson",
+      "Bruce Willis"
+    ],
+    "franchise": null,
+    "themes": [
+      "nonlinear_narrative",
+      "hitmen_banter",
+      "redemption",
+      "briefcase_mystery"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.85,
+      "intense": 0.85,
+      "thoughtful": 0.8,
+      "feel_good": 0.6
+    },
+    "frame_type": "DarkCrimeDramaFilm",
+    "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "imdb_rating": 8.9,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "royale_with_cheese",
+      "ezekiel_25_17",
+      "tarantino",
+      "iconic_dialogue"
+    ]
+  },
+  {
+    "id": "m_shawshank_redemption",
+    "title": "The Shawshank Redemption",
+    "release_year": 1994,
+    "runtime": 142,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "prison violence and language"
+    ],
+    "directors": [
+      "Frank Darabont"
+    ],
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler"
+    ],
+    "franchise": null,
+    "themes": [
+      "hope",
+      "prison_escape",
+      "enduring_friendship",
+      "perseverance"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.5,
+      "intense": 0.7,
+      "thoughtful": 0.95,
+      "feel_good": 0.95
+    },
+    "frame_type": "GeneralFilm",
+    "overview": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+    "imdb_rating": 9.3,
+    "poster_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "zihuatanejo",
+      "get_busy_living",
+      "number_one_imdb"
+    ]
+  },
+  {
+    "id": "m_fight_club",
+    "title": "Fight Club",
+    "release_year": 1999,
+    "runtime": 139,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama"
+    ],
+    "age_rating": "R",
+    "violence_level": "severe",
+    "content_descriptors": [
+      "explicit brutality",
+      "strong language and sexuality"
+    ],
+    "directors": [
+      "David Fincher"
+    ],
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "franchise": null,
+    "themes": [
+      "consumerism",
+      "dissociative_identity",
+      "anarchism",
+      "existential_rebellion"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.85,
+      "intense": 0.95,
+      "thoughtful": 0.9,
+      "feel_good": 0.4
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much more.",
+    "imdb_rating": 8.8,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "first_rule",
+      "tyler_durden",
+      "project_mayhem"
+    ]
+  },
+  {
+    "id": "m_get_out",
+    "title": "Get Out",
+    "release_year": 2017,
+    "runtime": 104,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "violence",
+      "bloody images and language"
+    ],
+    "directors": [
+      "Jordan Peele"
+    ],
+    "cast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford",
+      "Catherine Keener"
+    ],
+    "franchise": null,
+    "themes": [
+      "social_horror",
+      "hypnosis",
+      "racial_subtext",
+      "sunken_place"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.6,
+      "intense": 0.95,
+      "thoughtful": 0.9,
+      "feel_good": 0.4
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+    "imdb_rating": 7.8,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "sunken_place",
+      "teacup",
+      "jordan_peele",
+      "social_commentary"
+    ]
+  },
+  {
+    "id": "m_a_quiet_place",
+    "title": "A Quiet Place",
+    "release_year": 2018,
+    "runtime": 90,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "terror and some bloody images"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "cast": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds",
+      "Noah Jupe"
+    ],
+    "franchise": null,
+    "themes": [
+      "silence_to_survive",
+      "blind_creatures",
+      "parental_protection",
+      "isolation"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.7,
+      "intense": 0.95,
+      "thoughtful": 0.7,
+      "feel_good": 0.4
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+    "imdb_rating": 7.5,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "sound_design",
+      "nail_on_stairs",
+      "intense_silence"
+    ]
+  },
+  {
+    "id": "m_the_shining",
+    "title": "The Shining",
+    "release_year": 1980,
+    "runtime": 146,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "disturbing violent content",
+      "frightening images",
+      "some nudity"
+    ],
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "cast": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd",
+      "Scatman Crothers"
+    ],
+    "franchise": null,
+    "themes": [
+      "isolation_cabin_fever",
+      "overlook_hotel",
+      "psychic_shining",
+      "madness"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.4,
+      "intense": 0.95,
+      "thoughtful": 0.9,
+      "feel_good": 0.1
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "heres_johnny",
+      "redrum",
+      "kubrick",
+      "psychological_horror"
+    ]
+  },
+  {
+    "id": "m_lotr_fellowship",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "release_year": 2001,
+    "runtime": 178,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "epic battle sequences and some scary images"
+    ],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Orlando Bloom"
+    ],
+    "franchise": "Lord of the Rings",
+    "themes": [
+      "one_ring",
+      "epic_quest",
+      "fellowship",
+      "corrupting_power",
+      "middle_earth"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.85,
+      "intense": 0.8,
+      "thoughtful": 0.85,
+      "feel_good": 0.8
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+    "imdb_rating": 8.9,
+    "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "gandalf",
+      "moria",
+      "one_ring",
+      "tolkien_epic"
+    ]
+  },
+  {
+    "id": "m_star_wars_empire",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "release_year": 1980,
+    "runtime": 124,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "sci-fi action violence"
+    ],
+    "directors": [
+      "Irvin Kershner"
+    ],
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Billy Dee Williams"
+    ],
+    "franchise": "Star Wars",
+    "themes": [
+      "the_force",
+      "jedi_training",
+      "dark_side",
+      "rebellion",
+      "father_son"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.85,
+      "intense": 0.75,
+      "thoughtful": 0.75,
+      "feel_good": 0.7
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "After the Empire overpowers the Rebel Alliance on their ice planet base, Luke Skywalker begins his Jedi training with Yoda while his friends are pursued across the galaxy.",
+    "imdb_rating": 8.7,
+    "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "i_am_your_father",
+      "darth_vader",
+      "yoda",
+      "cloud_city"
+    ]
+  },
+  {
+    "id": "m_wall_e",
+    "title": "WALL\u00b7E",
+    "release_year": 2008,
+    "runtime": 98,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Sci-Fi"
+    ],
+    "age_rating": "G",
+    "violence_level": "none",
+    "content_descriptors": [
+      "general audiences"
+    ],
+    "directors": [
+      "Andrew Stanton"
+    ],
+    "cast": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
+    "franchise": null,
+    "themes": [
+      "environmentalism",
+      "robot_romance",
+      "space_colony",
+      "loneliness_to_connection"
+    ],
+    "mood_scores": {
+      "chill": 0.8,
+      "energetic": 0.6,
+      "intense": 0.3,
+      "thoughtful": 0.9,
+      "feel_good": 0.95
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "eve",
+      "plant_in_a_boot",
+      "silent_storytelling",
+      "pixar"
+    ]
+  },
+  {
+    "id": "m_ratatouille",
+    "title": "Ratatouille",
+    "release_year": 2007,
+    "runtime": 111,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "age_rating": "G",
+    "violence_level": "none",
+    "content_descriptors": [
+      "general audiences"
+    ],
+    "directors": [
+      "Brad Bird",
+      "Jan Pinkava"
+    ],
+    "cast": [
+      "Patton Oswalt",
+      "Ian Holm",
+      "Lou Romano",
+      "Peter O'Toole"
+    ],
+    "franchise": null,
+    "themes": [
+      "culinary_passion",
+      "anyone_can_cook",
+      "unlikely_friendship",
+      "critic_appreciation"
+    ],
+    "mood_scores": {
+      "chill": 0.8,
+      "energetic": 0.7,
+      "intense": 0.2,
+      "thoughtful": 0.8,
+      "feel_good": 0.95
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&auto=format&fit=crop&q=80",
+    "tags": [
+      "remy",
+      "anton_ego_review",
+      "paris_kitchen",
+      "gourmet"
+    ]
+  },
+  {
+    "id": "m_the_prestige",
+    "title": "The Prestige",
+    "release_year": 2006,
+    "runtime": 130,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "violence and disturbing images"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Christian Bale",
+      "Hugh Jackman",
+      "Scarlett Johansson",
+      "Michael Caine",
+      "David Bowie"
+    ],
+    "franchise": null,
+    "themes": [
+      "rivalry",
+      "magic_and_illusion",
+      "obsession",
+      "sacrifice",
+      "tesla_electricity"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.7,
+      "intense": 0.9,
+      "thoughtful": 0.95,
+      "feel_good": 0.3
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "imdb_rating": 8.5,
+    "poster_url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+    "tags": [
+      "are_you_watching_closely",
+      "transported_man",
+      "rivalry"
+    ]
+  },
+  {
+    "id": "m_gladiator",
+    "title": "Gladiator",
+    "release_year": 2000,
+    "runtime": 155,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "age_rating": "R",
+    "violence_level": "severe",
+    "content_descriptors": [
+      "vivid combat violence and gore"
+    ],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed"
+    ],
+    "franchise": null,
+    "themes": [
+      "revenge",
+      "roman_empire",
+      "honor",
+      "colosseum",
+      "brotherhood"
+    ],
+    "mood_scores": {
+      "chill": 0.2,
+      "energetic": 0.9,
+      "intense": 0.9,
+      "thoughtful": 0.8,
+      "feel_good": 0.7
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "imdb_rating": 8.5,
+    "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600",
+    "tags": [
+      "are_you_not_entertained",
+      "maximus",
+      "elysium"
+    ]
+  },
+  {
+    "id": "m_jurassic_park",
+    "title": "Jurassic Park",
+    "release_year": 1993,
+    "runtime": 127,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "intense sci-fi terror and peril"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "cast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum",
+      "Richard Attenborough"
+    ],
+    "franchise": null,
+    "themes": [
+      "cloning_dinosaurs",
+      "chaos_theory",
+      "corporate_hubris",
+      "survival"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.9,
+      "intense": 0.8,
+      "thoughtful": 0.75,
+      "feel_good": 0.7
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "An industrialist invites a select group to visit his revolutionary theme park of cloned dinosaurs, but a security breakdown turns the tour into a desperate fight for survival.",
+    "imdb_rating": 8.2,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600",
+    "tags": [
+      "life_finds_a_way",
+      "t_rex",
+      "spielberg_classic"
+    ]
+  },
+  {
+    "id": "m_back_to_the_future",
+    "title": "Back to the Future",
+    "release_year": 1985,
+    "runtime": 116,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "mild language and teen peril"
+    ],
+    "directors": [
+      "Robert Zemeckis"
+    ],
+    "cast": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson",
+      "Crispin Glover"
+    ],
+    "franchise": null,
+    "themes": [
+      "time_travel",
+      "delorean",
+      "80s_nostalgia",
+      "destiny_and_family"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.85,
+      "intense": 0.4,
+      "thoughtful": 0.65,
+      "feel_good": 0.95
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, eccentric scientist Doc Brown.",
+    "imdb_rating": 8.5,
+    "poster_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600",
+    "tags": [
+      "1_21_gigawatts",
+      "delorean",
+      "doc_brown",
+      "timeless_classic"
+    ]
+  },
+  {
+    "id": "m_iron_man",
+    "title": "Iron Man",
+    "release_year": 2008,
+    "runtime": 126,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "sci-fi action violence and brief suggestive content"
+    ],
+    "directors": [
+      "Jon Favreau"
+    ],
+    "cast": [
+      "Robert Downey Jr.",
+      "Gwyneth Paltrow",
+      "Jeff Bridges",
+      "Terrence Howard"
+    ],
+    "franchise": "Marvel",
+    "themes": [
+      "arms_dealer_redemption",
+      "engineering_genius",
+      "arc_reactor",
+      "origin_story"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.9,
+      "intense": 0.6,
+      "thoughtful": 0.65,
+      "feel_good": 0.85
+    },
+    "frame_type": "MarvelFilm",
+    "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "imdb_rating": 7.9,
+    "poster_url": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600",
+    "tags": [
+      "i_am_iron_man",
+      "mcu_genesis",
+      "arc_reactor"
+    ]
+  },
+  {
+    "id": "m_the_batman",
+    "title": "The Batman",
+    "release_year": 2022,
+    "runtime": 176,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "strong violent and disturbing content",
+      "drug content and language"
+    ],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "cast": [
+      "Robert Pattinson",
+      "Zo\u00eb Kravitz",
+      "Paul Dano",
+      "Colin Farrell",
+      "Jeffrey Wright"
+    ],
+    "franchise": "DC",
+    "themes": [
+      "detective_noir",
+      "corruption_web",
+      "riddler_ciphers",
+      "vengeance_to_hope"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 0.7,
+      "intense": 0.95,
+      "thoughtful": 0.85,
+      "feel_good": 0.3
+    },
+    "frame_type": "DCFilm",
+    "overview": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+    "imdb_rating": 7.8,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600",
+    "tags": [
+      "something_in_the_way",
+      "riddler",
+      "noir_detective",
+      "batmobile"
+    ]
+  },
+  {
+    "id": "m_spider_verse_2",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "release_year": 2023,
+    "runtime": 140,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "sequences of animated action violence",
+      "thematic elements"
+    ],
+    "directors": [
+      "Joaquim Dos Santos",
+      "Kemp Powers",
+      "Justin K. Thompson"
+    ],
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Oscar Isaac",
+      "Daniel Kaluuya"
+    ],
+    "franchise": "Marvel",
+    "themes": [
+      "canon_events",
+      "destiny_rebellion",
+      "multiverse_society",
+      "family_protection"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 1.0,
+      "intense": 0.85,
+      "thoughtful": 0.8,
+      "feel_good": 0.8
+    },
+    "frame_type": "MarvelFilm",
+    "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+    "imdb_rating": 8.6,
+    "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+    "tags": [
+      "spider_punk",
+      "miguel_o_hara",
+      "visual_symphony",
+      "cliffhanger"
+    ]
+  },
+  {
+    "id": "m_pans_labyrinth",
+    "title": "Pan's Labyrinth",
+    "release_year": 2006,
+    "runtime": 118,
+    "language": "es",
+    "country": "Spain",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "War"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "graphic violence and gruesome images"
+    ],
+    "directors": [
+      "Guillermo del Toro"
+    ],
+    "cast": [
+      "Ivana Baquero",
+      "Sergi L\u00f3pez",
+      "Maribel Verd\u00fa",
+      "Doug Jones"
+    ],
+    "franchise": null,
+    "themes": [
+      "fairy_tale_dark",
+      "fascist_spain",
+      "innocence_lost",
+      "underworld_princess"
+    ],
+    "mood_scores": {
+      "chill": 0.3,
+      "energetic": 0.5,
+      "intense": 0.85,
+      "thoughtful": 0.95,
+      "feel_good": 0.3
+    },
+    "frame_type": "SciFiThrillerFilm",
+    "overview": "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
+    "imdb_rating": 8.2,
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600",
+    "tags": [
+      "pale_man",
+      "faun",
+      "del_toro",
+      "dark_fantasy"
+    ]
+  },
+  {
+    "id": "m_amelie",
+    "title": "Am\u00e9lie",
+    "release_year": 2001,
+    "runtime": 122,
+    "language": "fr",
+    "country": "France",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "age_rating": "R",
+    "violence_level": "none",
+    "content_descriptors": [
+      "sexual content and nudity",
+      "language"
+    ],
+    "directors": [
+      "Jean-Pierre Jeunet"
+    ],
+    "cast": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz",
+      "Rufus"
+    ],
+    "franchise": null,
+    "themes": [
+      "small_kindnesses",
+      "paris_montmartre",
+      "whimsical_love",
+      "introversion"
+    ],
+    "mood_scores": {
+      "chill": 0.9,
+      "energetic": 0.6,
+      "intense": 0.1,
+      "thoughtful": 0.7,
+      "feel_good": 0.95
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "Am\u00e9lie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+    "imdb_rating": 8.3,
+    "poster_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
+    "tags": [
+      "montmartre",
+      "accordion_waltz",
+      "french_cinema",
+      "quirky"
+    ]
+  },
+  {
+    "id": "m_train_to_busan",
+    "title": "Train to Busan",
+    "release_year": 2016,
+    "runtime": 118,
+    "language": "ko",
+    "country": "South Korea",
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
+    "age_rating": "R",
+    "violence_level": "moderate",
+    "content_descriptors": [
+      "creature violence and gore",
+      "frightening situations"
+    ],
+    "directors": [
+      "Yeon Sang-ho"
+    ],
+    "cast": [
+      "Gong Yoo",
+      "Jung Yu-mi",
+      "Ma Dong-seok",
+      "Kim Su-an"
+    ],
+    "franchise": null,
+    "themes": [
+      "zombie_outbreak",
+      "father_daughter",
+      "human_nature_under_crisis",
+      "speeding_train"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 0.95,
+      "intense": 0.95,
+      "thoughtful": 0.7,
+      "feel_good": 0.4
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "While a zombie virus breaks out in South Korea, passengers struggle to survive on the high-speed train from Seoul to Busan.",
+    "imdb_rating": 7.6,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600",
+    "tags": [
+      "zombie_thriller",
+      "ma_dong_seok",
+      "emotional_ending",
+      "k_cinema"
+    ]
+  },
+  {
+    "id": "m_your_name",
+    "title": "Your Name.",
+    "release_year": 2016,
+    "runtime": 106,
+    "language": "ja",
+    "country": "Japan",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "age_rating": "PG",
+    "violence_level": "none",
+    "content_descriptors": [
+      "thematic elements and brief suggestive material"
+    ],
+    "directors": [
+      "Makoto Shinkai"
+    ],
+    "cast": [
+      "Ryunosuke Kamiki",
+      "Mone Kamishiraishi",
+      "Ryo Narita"
+    ],
+    "franchise": null,
+    "themes": [
+      "body_swapping",
+      "comet_disaster",
+      "red_thread_of_fate",
+      "memory_loss",
+      "timelines"
+    ],
+    "mood_scores": {
+      "chill": 0.6,
+      "energetic": 0.75,
+      "intense": 0.7,
+      "thoughtful": 0.85,
+      "feel_good": 0.85
+    },
+    "frame_type": "CozyAnimationFilm",
+    "overview": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things become even more complicated when they decide to meet in person.",
+    "imdb_rating": 8.4,
+    "poster_url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600",
+    "tags": [
+      "radwimps",
+      "shinkai_skies",
+      "tokyo_countryside",
+      "tearjerker"
+    ]
+  },
+  {
+    "id": "m_before_sunrise",
+    "title": "Before Sunrise",
+    "release_year": 1995,
+    "runtime": 101,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "age_rating": "R",
+    "violence_level": "none",
+    "content_descriptors": [
+      "some strong language"
+    ],
+    "directors": [
+      "Richard Linklater"
+    ],
+    "cast": [
+      "Ethan Hawke",
+      "Julie Delpy"
+    ],
+    "franchise": null,
+    "themes": [
+      "vienna_walk",
+      "philosophical_dialogue",
+      "fleeting_encounter",
+      "youthful_romance"
+    ],
+    "mood_scores": {
+      "chill": 0.9,
+      "energetic": 0.3,
+      "intense": 0.2,
+      "thoughtful": 0.95,
+      "feel_good": 0.8
+    },
+    "frame_type": "GeneralFilm",
+    "overview": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+    "tags": [
+      "linklater_trilogy",
+      "conversational",
+      "vienna_night"
+    ]
+  },
+  {
+    "id": "m_hereditary",
+    "title": "Hereditary",
+    "release_year": 2018,
+    "runtime": 127,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "age_rating": "R",
+    "violence_level": "severe",
+    "content_descriptors": [
+      "horror violence",
+      "disturbing images and language"
+    ],
+    "directors": [
+      "Ari Aster"
+    ],
+    "cast": [
+      "Toni Collette",
+      "Alex Wolff",
+      "Milly Shapiro",
+      "Gabriel Byrne"
+    ],
+    "franchise": null,
+    "themes": [
+      "family_grief",
+      "ancestral_cult",
+      "inevitable_doom",
+      "miniatures"
+    ],
+    "mood_scores": {
+      "chill": 0.1,
+      "energetic": 0.4,
+      "intense": 1.0,
+      "thoughtful": 0.85,
+      "feel_good": 0.05
+    },
+    "frame_type": "PsychologicalMysteryFilm",
+    "overview": "A grieving family is haunted by tragic and disturbing occurrences after the death of their secretive grandmother.",
+    "imdb_rating": 7.3,
+    "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600",
+    "tags": [
+      "toni_collette_performance",
+      "paimon",
+      "unsettling",
+      "a24_horror"
+    ]
+  },
+  {
+    "id": "m_palm_springs",
+    "title": "Palm Springs",
+    "release_year": 2020,
+    "runtime": 90,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mystery",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "age_rating": "R",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "sexual content",
+      "language and drug use"
+    ],
+    "directors": [
+      "Max Barbakow"
+    ],
+    "cast": [
+      "Andy Samberg",
+      "Cristin Milioti",
+      "J.K. Simmons"
+    ],
+    "franchise": null,
+    "themes": [
+      "time_loop",
+      "nihilism_to_purpose",
+      "wedding_reception",
+      "quantum_box"
+    ],
+    "mood_scores": {
+      "chill": 0.7,
+      "energetic": 0.8,
+      "intense": 0.4,
+      "thoughtful": 0.8,
+      "feel_good": 0.9
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
+    "imdb_rating": 7.4,
+    "poster_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
+    "tags": [
+      "time_loop_comedy",
+      "existential_fun",
+      "breezy"
+    ]
+  },
+  {
+    "id": "m_superbad",
+    "title": "Superbad",
+    "release_year": 2007,
+    "runtime": 113,
+    "language": "en",
+    "country": "USA",
+    "genres": [
+      "Comedy"
+    ],
+    "age_rating": "R",
+    "violence_level": "none",
+    "content_descriptors": [
+      "crude and sexual content",
+      "pervasive language",
+      "teen drinking"
+    ],
+    "directors": [
+      "Greg Mottola"
+    ],
+    "cast": [
+      "Jonah Hill",
+      "Michael Cera",
+      "Christopher Mintz-Plasse"
+    ],
+    "franchise": null,
+    "themes": [
+      "high_school_graduation",
+      "male_friendship_codependency",
+      "party_quest",
+      "mclovin"
+    ],
+    "mood_scores": {
+      "chill": 0.8,
+      "energetic": 0.8,
+      "intense": 0.2,
+      "thoughtful": 0.4,
+      "feel_good": 0.85
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
+    "imdb_rating": 7.6,
+    "poster_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600",
+    "tags": [
+      "mclovin",
+      "fogell",
+      "classic_comedy",
+      "laugh_out_loud"
+    ]
+  },
+  {
+    "id": "m_pk",
+    "title": "PK",
+    "release_year": 2014,
+    "runtime": 153,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "age_rating": "PG-13",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "thematic religious satire",
+      "brief violence"
+    ],
+    "directors": [
+      "Rajkumar Hirani"
+    ],
+    "cast": [
+      "Aamir Khan",
+      "Anushka Sharma",
+      "Sushant Singh Rajput"
+    ],
+    "franchise": null,
+    "themes": [
+      "alien_on_earth",
+      "religious_superstition_satire",
+      "innocent_perspective",
+      "love"
+    ],
+    "mood_scores": {
+      "chill": 0.7,
+      "energetic": 0.7,
+      "intense": 0.4,
+      "thoughtful": 0.9,
+      "feel_good": 0.9
+    },
+    "frame_type": "FeelGoodComedyFilm",
+    "overview": "An alien on Earth loses the remote control to his spaceship. His innocent questions force the society to evaluate religious dogma.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600",
+    "tags": [
+      "wrong_number",
+      "aamir_khan",
+      "thought_provoking_comedy"
+    ]
+  },
+  {
+    "id": "m_lagaan",
+    "title": "Lagaan: Once Upon a Time in India",
+    "release_year": 2001,
+    "runtime": 193,
+    "language": "hi",
+    "country": "India",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Musical"
+    ],
+    "age_rating": "PG",
+    "violence_level": "mild",
+    "content_descriptors": [
+      "some period combat and colonial oppression"
+    ],
+    "directors": [
+      "Ashutosh Gowariker"
+    ],
+    "cast": [
+      "Aamir Khan",
+      "Gracy Singh",
+      "Rachel Shelley"
+    ],
+    "franchise": null,
+    "themes": [
+      "cricket_match",
+      "colonial_defiance",
+      "rural_unity",
+      "underdog_triumph"
+    ],
+    "mood_scores": {
+      "chill": 0.4,
+      "energetic": 0.9,
+      "intense": 0.7,
+      "thoughtful": 0.8,
+      "feel_good": 0.95
+    },
+    "frame_type": "ActionBlockbusterFilm",
+    "overview": "The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.",
+    "imdb_rating": 8.1,
+    "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600",
+    "tags": [
+      "cricket",
+      "oscar_nominee",
+      "ar_rahman_music",
+      "epic_sports"
+    ]
+  }
+]

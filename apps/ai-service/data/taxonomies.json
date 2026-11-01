@@ -1,0 +1,226 @@
+{
+  "categories": [
+    {
+      "id": "entertainment",
+      "name": "Entertainment & Cinema",
+      "children": [
+        {
+          "id": "genres",
+          "name": "Movie Genres",
+          "children": [
+            {
+              "id": "genre_scifi",
+              "name": "Science Fiction",
+              "category": "genre",
+              "value": "Sci-Fi"
+            },
+            {
+              "id": "genre_action",
+              "name": "Action & Adventure",
+              "category": "genre",
+              "value": "Action"
+            },
+            {
+              "id": "genre_thriller",
+              "name": "Psychological Thriller",
+              "category": "genre",
+              "value": "Thriller"
+            },
+            {
+              "id": "genre_comedy",
+              "name": "Comedy & Satire",
+              "category": "genre",
+              "value": "Comedy"
+            },
+            {
+              "id": "genre_drama",
+              "name": "Drama & Biopic",
+              "category": "genre",
+              "value": "Drama"
+            },
+            {
+              "id": "genre_animation",
+              "name": "Animation & Anime",
+              "category": "genre",
+              "value": "Animation"
+            },
+            {
+              "id": "genre_horror",
+              "name": "Horror & Suspense",
+              "category": "genre",
+              "value": "Horror"
+            },
+            {
+              "id": "genre_romance",
+              "name": "Romance & Melodrama",
+              "category": "genre",
+              "value": "Romance"
+            },
+            {
+              "id": "genre_mystery",
+              "name": "Mystery & Whodunit",
+              "category": "genre",
+              "value": "Mystery"
+            },
+            {
+              "id": "genre_crime",
+              "name": "Crime & Gangster",
+              "category": "genre",
+              "value": "Crime"
+            },
+            {
+              "id": "genre_family",
+              "name": "Family & Children",
+              "category": "genre",
+              "value": "Family"
+            },
+            {
+              "id": "genre_fantasy",
+              "name": "Epic Fantasy",
+              "category": "genre",
+              "value": "Fantasy"
+            }
+          ]
+        },
+        {
+          "id": "franchises",
+          "name": "Cinematic Franchises",
+          "children": [
+            {
+              "id": "fr_marvel",
+              "name": "Marvel Cinematic Universe (MCU)",
+              "category": "franchise",
+              "value": "Marvel"
+            },
+            {
+              "id": "fr_dc",
+              "name": "DC Extended Universe",
+              "category": "franchise",
+              "value": "DC"
+            },
+            {
+              "id": "fr_starwars",
+              "name": "Star Wars Saga",
+              "category": "franchise",
+              "value": "Star Wars"
+            },
+            {
+              "id": "fr_lotr",
+              "name": "The Lord of the Rings / Middle Earth",
+              "category": "franchise",
+              "value": "Lord of the Rings"
+            },
+            {
+              "id": "fr_dune",
+              "name": "Dune Universe",
+              "category": "franchise",
+              "value": "Dune"
+            },
+            {
+              "id": "fr_johnwick",
+              "name": "John Wick Universe",
+              "category": "franchise",
+              "value": "John Wick"
+            },
+            {
+              "id": "fr_harrypotter",
+              "name": "Wizarding World",
+              "category": "franchise",
+              "value": "Harry Potter"
+            }
+          ]
+        },
+        {
+          "id": "languages",
+          "name": "Preferred Cinema Languages",
+          "children": [
+            {
+              "id": "lang_en",
+              "name": "English Cinema (Hollywood / Global)",
+              "category": "language",
+              "value": "en"
+            },
+            {
+              "id": "lang_hi",
+              "name": "Hindi Cinema (Bollywood)",
+              "category": "language",
+              "value": "hi"
+            },
+            {
+              "id": "lang_ja",
+              "name": "Japanese Cinema & Anime",
+              "category": "language",
+              "value": "ja"
+            },
+            {
+              "id": "lang_ko",
+              "name": "Korean Cinema & Thrillers",
+              "category": "language",
+              "value": "ko"
+            },
+            {
+              "id": "lang_es",
+              "name": "Spanish & Latin American Cinema",
+              "category": "language",
+              "value": "es"
+            },
+            {
+              "id": "lang_fr",
+              "name": "French Cinema & Arthouse",
+              "category": "language",
+              "value": "fr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle_hobbies",
+      "name": "Hobbies & Themes",
+      "children": [
+        {
+          "id": "sports_tech",
+          "name": "Interests & Passions",
+          "children": [
+            {
+              "id": "hobby_gaming",
+              "name": "Gaming & Cyberpunk",
+              "category": "theme",
+              "value": "cyberpunk"
+            },
+            {
+              "id": "hobby_space",
+              "name": "Space Exploration & Astronomy",
+              "category": "theme",
+              "value": "space_exploration"
+            },
+            {
+              "id": "hobby_ai",
+              "name": "Artificial Intelligence & Futurism",
+              "category": "theme",
+              "value": "artificial_intelligence"
+            },
+            {
+              "id": "hobby_sports",
+              "name": "Sports, Cricket & Athletics",
+              "category": "theme",
+              "value": "sports"
+            },
+            {
+              "id": "hobby_detective",
+              "name": "True Crime & Investigation",
+              "category": "theme",
+              "value": "investigation"
+            },
+            {
+              "id": "hobby_philosophy",
+              "name": "Mind-Bending & Existential Questions",
+              "category": "theme",
+              "value": "existential"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

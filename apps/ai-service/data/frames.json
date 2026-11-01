@@ -1,0 +1,140 @@
+{
+  "GeneralFilm": {
+    "parent": null,
+    "description": "Root conceptual frame for all motion pictures",
+    "slots": {
+      "default_genres": [
+        "Drama"
+      ],
+      "pacing": "moderate",
+      "typical_tone": "balanced",
+      "has_antagonist": true,
+      "has_post_credits": false,
+      "recommended_age": "PG-13",
+      "visual_style": "cinematic"
+    }
+  },
+  "ActionBlockbusterFilm": {
+    "parent": "GeneralFilm",
+    "description": "High-adrenaline action films with practical or digital set-pieces",
+    "slots": {
+      "default_genres": [
+        "Action",
+        "Adventure"
+      ],
+      "pacing": "fast",
+      "typical_tone": "energetic",
+      "stunt_intensity": "high",
+      "visual_style": "dynamic_wide"
+    }
+  },
+  "SuperheroFilm": {
+    "parent": "ActionBlockbusterFilm",
+    "description": "Costumed hero narratives with extraordinary powers and moral conflicts",
+    "slots": {
+      "default_genres": [
+        "Action",
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "hero_journey": true,
+      "has_post_credits": true,
+      "typical_franchise": "ComicBookAdaptation",
+      "recommended_age": "PG-13"
+    }
+  },
+  "MarvelFilm": {
+    "parent": "SuperheroFilm",
+    "description": "Marvel Cinematic Universe and multiverse canon films",
+    "slots": {
+      "franchise": "Marvel",
+      "humor_frequency": "high",
+      "crossover_cameos": true,
+      "has_post_credits": true,
+      "visual_style": "vibrant_cgi"
+    }
+  },
+  "DCFilm": {
+    "parent": "SuperheroFilm",
+    "description": "DC Comics cinematic universe productions",
+    "slots": {
+      "franchise": "DC",
+      "typical_tone": "dark_mythic",
+      "humor_frequency": "low_to_moderate",
+      "has_post_credits": false
+    }
+  },
+  "SciFiThrillerFilm": {
+    "parent": "GeneralFilm",
+    "description": "Speculative science and existential thrillers",
+    "slots": {
+      "default_genres": [
+        "Sci-Fi",
+        "Thriller",
+        "Mystery"
+      ],
+      "pacing": "slow_burn_to_intense",
+      "typical_tone": "thoughtful",
+      "intellectual_complexity": "high",
+      "visual_style": "atmospheric"
+    }
+  },
+  "PsychologicalMysteryFilm": {
+    "parent": "GeneralFilm",
+    "description": "Twist-driven psychological investigations and whodunits",
+    "slots": {
+      "default_genres": [
+        "Mystery",
+        "Thriller",
+        "Crime"
+      ],
+      "pacing": "calculating",
+      "plot_twist_present": true,
+      "typical_tone": "intense"
+    }
+  },
+  "CozyAnimationFilm": {
+    "parent": "GeneralFilm",
+    "description": "Heartwarming animated storytelling suitable for all ages",
+    "slots": {
+      "default_genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "pacing": "breezy",
+      "typical_tone": "feel_good",
+      "recommended_age": "G",
+      "emotional_warmth": "very_high"
+    }
+  },
+  "DarkCrimeDramaFilm": {
+    "parent": "GeneralFilm",
+    "description": "Gritty character studies of criminals, law enforcement, or anti-heroes",
+    "slots": {
+      "default_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "pacing": "methodical",
+      "violence_level": "moderate_to_severe",
+      "recommended_age": "R",
+      "typical_tone": "intense"
+    }
+  },
+  "FeelGoodComedyFilm": {
+    "parent": "GeneralFilm",
+    "description": "Uplifting comedic narratives designed to relieve stress",
+    "slots": {
+      "default_genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "pacing": "fast",
+      "typical_tone": "chill",
+      "recommended_age": "PG-13",
+      "emotional_warmth": "high"
+    }
+  }
+}

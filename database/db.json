@@ -1,0 +1,4701 @@
+{
+  "users": [
+    {
+      "id": "usr_688d0ece7a36",
+      "name": "Alice Researcher",
+      "email": "test_1793441322301@fai-movie.edu",
+      "password_hash": "$2b$10$yQXNK6LzV2LeYw5RjFdnO.qZLTtak4Wi3Z.iw1JzRxBu87.MyyNdm",
+      "email_verified_at": "2026-10-31T10:08:42.378Z",
+      "status": "active",
+      "created_at": "2026-10-31T10:08:42.378Z"
+    },
+    {
+      "id": "usr_2f1f29ecd45d",
+      "name": "Alice Researcher",
+      "email": "test_1793441337407@fai-movie.edu",
+      "password_hash": "$2b$10$07Y4vjsUNzgts69GyVB00.Zgk1el3nXpFH0VxoHaowThtoDj362DC",
+      "email_verified_at": "2026-10-31T10:08:57.483Z",
+      "status": "active",
+      "created_at": "2026-10-31T10:08:57.483Z"
+    },
+    {
+      "id": "usr_fefb2365714a",
+      "name": "Dr. Turing",
+      "email": "turing_1793442159@fai.edu",
+      "password_hash": "$2b$10$3AFQX5sr8uAxPLYBWQ604eVs/aNmU8Qf1NzUcHd6xCFpf0OOahIBi",
+      "email_verified_at": "2026-10-31T10:22:39.592Z",
+      "status": "active",
+      "created_at": "2026-10-31T10:22:39.592Z"
+    },
+    {
+      "id": "usr_2ae807eb401c",
+      "name": "Alice Researcher",
+      "email": "test_1793519178182@fai-movie.edu",
+      "password_hash": "$2b$10$5X49K9PhLa2QhUV7kyiqNOzBxGWWq7kNUnMsekf/nwY2uOuGeliGm",
+      "email_verified_at": "2026-11-01T07:46:18.286Z",
+      "status": "active",
+      "created_at": "2026-11-01T07:46:18.286Z"
+    },
+    {
+      "id": "usr_f41d147d4ba2",
+      "name": "Dr. Turing",
+      "email": "turing_1793519184@fai.edu",
+      "password_hash": "$2b$10$UA2WJKvekaydNI5ZvZaPLenAMoTFEn5.2egkDjORZAoP33.fDR4aa",
+      "email_verified_at": "2026-11-01T07:46:24.456Z",
+      "status": "active",
+      "created_at": "2026-11-01T07:46:24.456Z"
+    },
+    {
+      "id": "usr_5e8c65caa2d8",
+      "name": "kirtan",
+      "email": "dummy1@gmail.com",
+      "password_hash": "$2b$10$v4wG1iuRmP7KiYShPMAgPOH9Oz0CsJCbXVTW/pb3pblSZjPDBeJ92",
+      "email_verified_at": "2026-11-01T07:47:15.552Z",
+      "status": "active",
+      "created_at": "2026-11-01T07:47:15.552Z"
+    },
+    {
+      "id": "usr_69ebb4d6a530",
+      "name": "Dr. Turing",
+      "email": "turing_1793519646@fai.edu",
+      "password_hash": "$2b$10$cnRDsTNwubiaJr2TwyaXjevruOV2EsmU4olf5jIYaNhTuaOLTQD0i",
+      "email_verified_at": "2026-11-01T07:54:06.978Z",
+      "status": "active",
+      "created_at": "2026-11-01T07:54:06.978Z"
+    },
+    {
+      "id": "usr_b85f77ff3a8c",
+      "name": "Dr. Turing",
+      "email": "turing_1793519859@fai.edu",
+      "password_hash": "$2b$10$5dv9VGoWvKHw1H8NhsnCoeHqpcttzi3Kqn16WoM6iOZOuI4yhMy8y",
+      "email_verified_at": "2026-11-01T07:57:39.202Z",
+      "status": "active",
+      "created_at": "2026-11-01T07:57:39.202Z"
+    },
+    {
+      "id": "usr_07bbbc46f515",
+      "name": "Dr. Turing",
+      "email": "turing_1793520517@fai.edu",
+      "password_hash": "$2b$10$01iuc1TFyzXe270Hnjt1YOf6D01vRXI1GhXbGiqJT1nGgQMpv8xvO",
+      "email_verified_at": "2026-11-01T08:08:37.973Z",
+      "status": "active",
+      "created_at": "2026-11-01T08:08:37.973Z"
+    },
+    {
+      "id": "usr_c0be91d2f684",
+      "name": "Dr. Turing",
+      "email": "turing_1793520668@fai.edu",
+      "password_hash": "$2b$10$kbvUfGVU/zFMaFxIcWlFzO0yo6Hi7Jne4O5Pxp3a0vRkIA4Scufdq",
+      "email_verified_at": "2026-11-01T08:11:08.854Z",
+      "status": "active",
+      "created_at": "2026-11-01T08:11:08.854Z"
+    }
+  ],
+  "sessions": [],
+  "user_interests": {
+    "usr_688d0ece7a36": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      }
+    ],
+    "usr_2f1f29ecd45d": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      }
+    ],
+    "usr_fefb2365714a": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      },
+      {
+        "category": "language",
+        "value": "en",
+        "preference": "like",
+        "weight": 1
+      }
+    ],
+    "usr_2ae807eb401c": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      }
+    ],
+    "usr_f41d147d4ba2": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      },
+      {
+        "category": "language",
+        "value": "en",
+        "preference": "like",
+        "weight": 1
+      }
+    ],
+    "usr_5e8c65caa2d8": [],
+    "usr_69ebb4d6a530": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      },
+      {
+        "category": "language",
+        "value": "en",
+        "preference": "like",
+        "weight": 1
+      }
+    ],
+    "usr_b85f77ff3a8c": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      },
+      {
+        "category": "language",
+        "value": "en",
+        "preference": "like",
+        "weight": 1
+      }
+    ],
+    "usr_07bbbc46f515": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      },
+      {
+        "category": "language",
+        "value": "en",
+        "preference": "like",
+        "weight": 1
+      }
+    ],
+    "usr_c0be91d2f684": [
+      {
+        "category": "genre",
+        "value": "Sci-Fi",
+        "preference": "like",
+        "weight": 0.9
+      },
+      {
+        "category": "genre",
+        "value": "Thriller",
+        "preference": "like",
+        "weight": 0.8
+      },
+      {
+        "category": "language",
+        "value": "en",
+        "preference": "like",
+        "weight": 1
+      }
+    ]
+  },
+  "user_genre_beliefs": {
+    "usr_fefb2365714a": {
+      "Sci-Fi": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Action": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Thriller": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      }
+    },
+    "usr_f41d147d4ba2": {
+      "Sci-Fi": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Action": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Thriller": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      }
+    },
+    "usr_5e8c65caa2d8": {
+      "Comedy": {
+        "alpha": 3.5,
+        "beta": 2.3,
+        "mean": 0.603,
+        "variance": 0.0352,
+        "ci_lower": 0.236,
+        "ci_upper": 0.971,
+        "evidence_count": 1
+      },
+      "Fantasy": {
+        "alpha": 3.5,
+        "beta": 2.3,
+        "mean": 0.603,
+        "variance": 0.0352,
+        "ci_lower": 0.236,
+        "ci_upper": 0.971,
+        "evidence_count": 1
+      },
+      "Mystery": {
+        "alpha": 3.5,
+        "beta": 2.3,
+        "mean": 0.603,
+        "variance": 0.0352,
+        "ci_lower": 0.236,
+        "ci_upper": 0.971,
+        "evidence_count": 1
+      },
+      "Romance": {
+        "alpha": 3.5,
+        "beta": 2.3,
+        "mean": 0.603,
+        "variance": 0.0352,
+        "ci_lower": 0.236,
+        "ci_upper": 0.971,
+        "evidence_count": 1
+      },
+      "Sci-Fi": {
+        "alpha": 3.5,
+        "beta": 2.3,
+        "mean": 0.603,
+        "variance": 0.0352,
+        "ci_lower": 0.236,
+        "ci_upper": 0.971,
+        "evidence_count": 1
+      }
+    },
+    "usr_69ebb4d6a530": {
+      "Sci-Fi": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Action": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Thriller": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      }
+    },
+    "usr_b85f77ff3a8c": {
+      "Sci-Fi": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Action": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Thriller": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      }
+    },
+    "usr_07bbbc46f515": {
+      "Sci-Fi": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Action": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Thriller": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      }
+    },
+    "usr_c0be91d2f684": {
+      "Sci-Fi": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Action": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      },
+      "Thriller": {
+        "alpha": 4.5,
+        "beta": 2.1,
+        "mean": 0.682,
+        "variance": 0.0285,
+        "ci_lower": 0.351,
+        "ci_upper": 1,
+        "evidence_count": 1
+      }
+    }
+  },
+  "watchlists": [
+    {
+      "id": "wl_usr_688d0ece7a36_default",
+      "userId": "usr_688d0ece7a36",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-10-31T10:08:42.378Z"
+    },
+    {
+      "id": "wl_usr_2f1f29ecd45d_default",
+      "userId": "usr_2f1f29ecd45d",
+      "name": "My Watchlist",
+      "movieIds": [
+        "m_inception"
+      ],
+      "createdAt": "2026-10-31T10:08:57.484Z"
+    },
+    {
+      "id": "wl_usr_fefb2365714a_default",
+      "userId": "usr_fefb2365714a",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-10-31T10:22:39.592Z"
+    },
+    {
+      "id": "wl_usr_2ae807eb401c_default",
+      "userId": "usr_2ae807eb401c",
+      "name": "My Watchlist",
+      "movieIds": [
+        "m_inception"
+      ],
+      "createdAt": "2026-11-01T07:46:18.287Z"
+    },
+    {
+      "id": "wl_usr_f41d147d4ba2_default",
+      "userId": "usr_f41d147d4ba2",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-11-01T07:46:24.456Z"
+    },
+    {
+      "id": "wl_usr_5e8c65caa2d8_default",
+      "userId": "usr_5e8c65caa2d8",
+      "name": "My Watchlist",
+      "movieIds": [
+        "m_palm_springs"
+      ],
+      "createdAt": "2026-11-01T07:47:15.553Z"
+    },
+    {
+      "id": "wl_usr_69ebb4d6a530_default",
+      "userId": "usr_69ebb4d6a530",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-11-01T07:54:06.979Z"
+    },
+    {
+      "id": "wl_usr_b85f77ff3a8c_default",
+      "userId": "usr_b85f77ff3a8c",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-11-01T07:57:39.203Z"
+    },
+    {
+      "id": "wl_usr_07bbbc46f515_default",
+      "userId": "usr_07bbbc46f515",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-11-01T08:08:37.974Z"
+    },
+    {
+      "id": "wl_guest_user_1_default",
+      "userId": "guest_user_1",
+      "name": "My Watchlist",
+      "movieIds": [
+        "m_inception",
+        "m_interstellar",
+        "m_the_dark_knight",
+        "m_dune_part_1",
+        "m_parasite"
+      ],
+      "createdAt": "2026-11-01T08:08:52.134Z"
+    },
+    {
+      "id": "wl_usr_c0be91d2f684_default",
+      "userId": "usr_c0be91d2f684",
+      "name": "My Watchlist",
+      "movieIds": [],
+      "createdAt": "2026-11-01T08:11:08.855Z"
+    }
+  ],
+  "recommendation_sessions": [
+    {
+      "id": "sess_22a622aa168f",
+      "userId": "usr_fefb2365714a",
+      "mood": 8.5,
+      "timeBudget": 320,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_inception",
+          "title": "Inception",
+          "releaseYear": 2010,
+          "runtimeMinutes": 148,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+          ],
+          "imdbRating": 8.8,
+          "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+          "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+          "rank": 1,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.7,
+            "historical_taste": 10,
+            "critical_rating": 8.8,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi, Thriller",
+            "High mood compatibility (90%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.8/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_the_prestige",
+          "title": "The Prestige",
+          "releaseYear": 2006,
+          "runtimeMinutes": 130,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Christian Bale",
+            "Hugh Jackman",
+            "Scarlett Johansson",
+            "Michael Caine",
+            "David Bowie"
+          ],
+          "imdbRating": 8.5,
+          "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+          "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+          "rank": 2,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.3,
+            "historical_taste": 10,
+            "critical_rating": 8.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi, Thriller",
+            "High mood compatibility (89%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.5/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 3,
+        "generated_nodes": 115,
+        "states_evaluated": 2,
+        "execution_time_ms": 1.27,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.85
+      },
+      "createdAt": "2026-10-31T10:22:39.622Z"
+    },
+    {
+      "id": "sess_78bb001917a3",
+      "userId": "usr_f41d147d4ba2",
+      "mood": 8.5,
+      "timeBudget": 320,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_inception",
+          "title": "Inception",
+          "releaseYear": 2010,
+          "runtimeMinutes": 148,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+          ],
+          "imdbRating": 8.8,
+          "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+          "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+          "rank": 1,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.7,
+            "historical_taste": 10,
+            "critical_rating": 8.8,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi, Thriller",
+            "High mood compatibility (90%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.8/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_the_prestige",
+          "title": "The Prestige",
+          "releaseYear": 2006,
+          "runtimeMinutes": 130,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Christian Bale",
+            "Hugh Jackman",
+            "Scarlett Johansson",
+            "Michael Caine",
+            "David Bowie"
+          ],
+          "imdbRating": 8.5,
+          "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+          "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+          "rank": 2,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.3,
+            "historical_taste": 10,
+            "critical_rating": 8.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi, Thriller",
+            "High mood compatibility (89%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.5/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 3,
+        "generated_nodes": 115,
+        "states_evaluated": 2,
+        "execution_time_ms": 2.23,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.85
+      },
+      "createdAt": "2026-11-01T07:46:24.491Z"
+    },
+    {
+      "id": "sess_3a05a7284655",
+      "userId": "usr_5e8c65caa2d8",
+      "mood": 5,
+      "timeBudget": 120,
+      "movieCount": 1,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Thriller"
+      ],
+      "dominantMood": "balanced",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_spider_verse_1",
+          "title": "Spider-Man: Into the Spider-Verse",
+          "releaseYear": 2018,
+          "runtimeMinutes": 117,
+          "genres": [
+            "Animation",
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Bob Persichetti",
+            "Peter Ramsey",
+            "Rodney Rothman"
+          ],
+          "cast": [
+            "Shameik Moore",
+            "Jake Johnson",
+            "Hailee Steinfeld",
+            "Mahershala Ali"
+          ],
+          "imdbRating": 8.4,
+          "posterUrl": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600&auto=format&fit=crop&q=80",
+          "overview": "Teen Miles Morales becomes the new Spider-Man and joins other Spider-Heroes from parallel universes to stop a menace that threatens all of reality.",
+          "rank": 1,
+          "matchScore": 73,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 23.3,
+            "mood_fit": 21.2,
+            "historical_taste": 10,
+            "critical_rating": 8.4,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Action, Sci-Fi",
+            "High mood compatibility (85%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.4/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 2,
+        "generated_nodes": 23,
+        "states_evaluated": 1,
+        "execution_time_ms": 1,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.5
+      },
+      "createdAt": "2026-11-01T07:47:47.649Z"
+    },
+    {
+      "id": "sess_49c3873050d0",
+      "userId": "usr_5e8c65caa2d8",
+      "mood": 10,
+      "timeBudget": 180,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Thriller"
+      ],
+      "dominantMood": "chill",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_a_quiet_place",
+          "title": "A Quiet Place",
+          "releaseYear": 2018,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Drama",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "John Krasinski"
+          ],
+          "cast": [
+            "Emily Blunt",
+            "John Krasinski",
+            "Millicent Simmonds",
+            "Noah Jupe"
+          ],
+          "imdbRating": 7.5,
+          "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+          "overview": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+          "rank": 1,
+          "matchScore": 52,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 11.7,
+            "mood_fit": 12.5,
+            "historical_taste": 10,
+            "critical_rating": 7.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_palm_springs",
+          "title": "Palm Springs",
+          "releaseYear": 2020,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Comedy",
+            "Fantasy",
+            "Mystery",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Max Barbakow"
+          ],
+          "cast": [
+            "Andy Samberg",
+            "Cristin Milioti",
+            "J.K. Simmons"
+          ],
+          "imdbRating": 7.4,
+          "posterUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
+          "overview": "Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
+          "rank": 2,
+          "matchScore": 52,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 11.7,
+            "mood_fit": 12.5,
+            "historical_taste": 10,
+            "critical_rating": 7.4,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 60,
+        "generated_nodes": 65,
+        "states_evaluated": 59,
+        "execution_time_ms": 0.51,
+        "heuristic_admissible": true,
+        "mood_lambda": 1
+      },
+      "createdAt": "2026-11-01T07:49:49.124Z"
+    },
+    {
+      "id": "sess_1003bab4cb5c",
+      "userId": "usr_5e8c65caa2d8",
+      "mood": 7,
+      "timeBudget": 180,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_a_quiet_place",
+          "title": "A Quiet Place",
+          "releaseYear": 2018,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Drama",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "John Krasinski"
+          ],
+          "cast": [
+            "Emily Blunt",
+            "John Krasinski",
+            "Millicent Simmonds",
+            "Noah Jupe"
+          ],
+          "imdbRating": 7.5,
+          "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+          "overview": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+          "rank": 1,
+          "matchScore": 61,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 17.5,
+            "mood_fit": 15.8,
+            "historical_taste": 10,
+            "critical_rating": 7.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_palm_springs",
+          "title": "Palm Springs",
+          "releaseYear": 2020,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Comedy",
+            "Fantasy",
+            "Mystery",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Max Barbakow"
+          ],
+          "cast": [
+            "Andy Samberg",
+            "Cristin Milioti",
+            "J.K. Simmons"
+          ],
+          "imdbRating": 7.4,
+          "posterUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
+          "overview": "Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
+          "rank": 2,
+          "matchScore": 65,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 17.5,
+            "mood_fit": 20.5,
+            "historical_taste": 10,
+            "critical_rating": 7.4,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi",
+            "High mood compatibility (82%) with your current session vibe"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 56,
+        "generated_nodes": 65,
+        "states_evaluated": 55,
+        "execution_time_ms": 2.75,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.7
+      },
+      "createdAt": "2026-11-01T07:50:14.146Z"
+    },
+    {
+      "id": "sess_435cfb97674d",
+      "userId": "usr_5e8c65caa2d8",
+      "mood": 7,
+      "timeBudget": 180,
+      "movieCount": 2,
+      "strategy": "beam_search",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_dune_part_2",
+          "title": "Dune: Part Two",
+          "releaseYear": 2024,
+          "runtimeMinutes": 166,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "directors": [
+            "Denis Villeneuve"
+          ],
+          "cast": [
+            "Timothée Chalamet",
+            "Zendaya",
+            "Rebecca Ferguson",
+            "Javier Bardem",
+            "Austin Butler"
+          ],
+          "imdbRating": 8.6,
+          "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+          "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+          "rank": 1,
+          "matchScore": 78,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 19.7,
+            "historical_taste": 12.1,
+            "critical_rating": 8.6,
+            "runtime_fit": 2.4
+          },
+          "reasons": [
+            "Direct match for requested genres: Action, Sci-Fi",
+            "High mood compatibility (78%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.6/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "Beam Search (width k=5)",
+        "beam_width": 5,
+        "total_states_generated": 361,
+        "states_retained_per_depth": 5,
+        "depth_levels_completed": 1,
+        "memory_reduction_pct": "90.5%",
+        "execution_time_ms": 0,
+        "depth_history": [
+          {
+            "depth": 1,
+            "candidates_generated": 58,
+            "retained_beam_states": 5,
+            "top_score_at_depth": 0.9037
+          }
+        ]
+      },
+      "createdAt": "2026-11-01T07:50:37.292Z"
+    },
+    {
+      "id": "sess_623cb56322f7",
+      "userId": "usr_69ebb4d6a530",
+      "mood": 8.5,
+      "timeBudget": 320,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_inception",
+          "title": "Inception",
+          "releaseYear": 2010,
+          "runtimeMinutes": 148,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+          ],
+          "imdbRating": 8.8,
+          "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+          "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+          "rank": 1,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.7,
+            "historical_taste": 10,
+            "critical_rating": 8.8,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi, Thriller",
+            "High mood compatibility (90%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.8/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_the_prestige",
+          "title": "The Prestige",
+          "releaseYear": 2006,
+          "runtimeMinutes": 130,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Christian Bale",
+            "Hugh Jackman",
+            "Scarlett Johansson",
+            "Michael Caine",
+            "David Bowie"
+          ],
+          "imdbRating": 8.5,
+          "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+          "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+          "rank": 2,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.3,
+            "historical_taste": 10,
+            "critical_rating": 8.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi, Thriller",
+            "High mood compatibility (89%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.5/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 3,
+        "generated_nodes": 115,
+        "states_evaluated": 2,
+        "execution_time_ms": 0,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.85
+      },
+      "createdAt": "2026-11-01T07:54:07.000Z"
+    },
+    {
+      "id": "sess_8c30831f465f",
+      "userId": "guest_user_1",
+      "mood": 7.5,
+      "timeBudget": 180,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "dominantMood": "energetic",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_palm_springs",
+          "title": "Palm Springs",
+          "releaseYear": 2020,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Comedy",
+            "Fantasy",
+            "Mystery",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Max Barbakow"
+          ],
+          "cast": [
+            "Andy Samberg",
+            "Cristin Milioti",
+            "J.K. Simmons"
+          ],
+          "imdbRating": 7.4,
+          "posterUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
+          "overview": "Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
+          "rank": 1,
+          "matchScore": 65,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 17.5,
+            "mood_fit": 20.3,
+            "historical_taste": 10,
+            "critical_rating": 7.4,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi",
+            "High mood compatibility (81%) with your current session vibe"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_a_quiet_place",
+          "title": "A Quiet Place",
+          "releaseYear": 2018,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Drama",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "John Krasinski"
+          ],
+          "cast": [
+            "Emily Blunt",
+            "John Krasinski",
+            "Millicent Simmonds",
+            "Noah Jupe"
+          ],
+          "imdbRating": 7.5,
+          "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+          "overview": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+          "rank": 2,
+          "matchScore": 62,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 17.5,
+            "mood_fit": 16.7,
+            "historical_taste": 10,
+            "critical_rating": 7.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 55,
+        "generated_nodes": 65,
+        "states_evaluated": 54,
+        "execution_time_ms": 1.01,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.75
+      },
+      "createdAt": "2026-11-01T07:57:21.261Z"
+    },
+    {
+      "id": "sess_43d14d21d2b5",
+      "userId": "usr_b85f77ff3a8c",
+      "mood": 8.5,
+      "timeBudget": 320,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_inception",
+          "title": "Inception",
+          "releaseYear": 2010,
+          "runtimeMinutes": 148,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+          ],
+          "imdbRating": 8.8,
+          "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+          "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+          "rank": 1,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.7,
+            "historical_taste": 10,
+            "critical_rating": 8.8,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Thriller, Sci-Fi",
+            "High mood compatibility (90%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.8/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_the_prestige",
+          "title": "The Prestige",
+          "releaseYear": 2006,
+          "runtimeMinutes": 130,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Christian Bale",
+            "Hugh Jackman",
+            "Scarlett Johansson",
+            "Michael Caine",
+            "David Bowie"
+          ],
+          "imdbRating": 8.5,
+          "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+          "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+          "rank": 2,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.3,
+            "historical_taste": 10,
+            "critical_rating": 8.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Thriller, Sci-Fi",
+            "High mood compatibility (89%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.5/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 3,
+        "generated_nodes": 115,
+        "states_evaluated": 2,
+        "execution_time_ms": 2,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.85
+      },
+      "createdAt": "2026-11-01T07:57:39.231Z"
+    },
+    {
+      "id": "sess_1ad6592ead4a",
+      "userId": "usr_07bbbc46f515",
+      "mood": 8.5,
+      "timeBudget": 320,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_inception",
+          "title": "Inception",
+          "releaseYear": 2010,
+          "runtimeMinutes": 148,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+          ],
+          "imdbRating": 8.8,
+          "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+          "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+          "rank": 1,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.7,
+            "historical_taste": 10,
+            "critical_rating": 8.8,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Thriller, Sci-Fi",
+            "High mood compatibility (90%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.8/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_the_prestige",
+          "title": "The Prestige",
+          "releaseYear": 2006,
+          "runtimeMinutes": 130,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Christian Bale",
+            "Hugh Jackman",
+            "Scarlett Johansson",
+            "Michael Caine",
+            "David Bowie"
+          ],
+          "imdbRating": 8.5,
+          "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+          "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+          "rank": 2,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.3,
+            "historical_taste": 10,
+            "critical_rating": 8.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Thriller, Sci-Fi",
+            "High mood compatibility (89%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.5/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 3,
+        "generated_nodes": 115,
+        "states_evaluated": 2,
+        "execution_time_ms": 0,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.85
+      },
+      "createdAt": "2026-11-01T08:08:38.010Z"
+    },
+    {
+      "id": "sess_dced985ee3df",
+      "userId": "usr_c0be91d2f684",
+      "mood": 8.5,
+      "timeBudget": 320,
+      "movieCount": 2,
+      "strategy": "astar",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_inception",
+          "title": "Inception",
+          "releaseYear": 2010,
+          "runtimeMinutes": 148,
+          "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page",
+            "Tom Hardy"
+          ],
+          "imdbRating": 8.8,
+          "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+          "overview": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+          "rank": 1,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.7,
+            "historical_taste": 10,
+            "critical_rating": 8.8,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Thriller, Sci-Fi",
+            "High mood compatibility (90%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.8/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_the_prestige",
+          "title": "The Prestige",
+          "releaseYear": 2006,
+          "runtimeMinutes": 130,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Christian Bale",
+            "Hugh Jackman",
+            "Scarlett Johansson",
+            "Michael Caine",
+            "David Bowie"
+          ],
+          "imdbRating": 8.5,
+          "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+          "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+          "rank": 2,
+          "matchScore": 86,
+          "scoreLabel": "Good match",
+          "confidenceLevel": "Moderate Confidence",
+          "scoreBreakdown": {
+            "genre_fit": 35,
+            "mood_fit": 22.3,
+            "historical_taste": 10,
+            "critical_rating": 8.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Thriller, Sci-Fi",
+            "High mood compatibility (89%) with your current session vibe",
+            "Critically acclaimed title (IMDb 8.5/10)"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "A*",
+        "expanded_nodes": 3,
+        "generated_nodes": 115,
+        "states_evaluated": 2,
+        "execution_time_ms": 0,
+        "heuristic_admissible": true,
+        "mood_lambda": 0.85
+      },
+      "createdAt": "2026-11-01T08:11:08.875Z"
+    },
+    {
+      "id": "sess_458e4218049b",
+      "userId": "usr_5e8c65caa2d8",
+      "mood": 7,
+      "timeBudget": 180,
+      "movieCount": 2,
+      "strategy": "csp",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "dominantMood": "thoughtful",
+      "modelVersion": "recommender-1.0.0-fai",
+      "results": [
+        {
+          "movieId": "m_a_quiet_place",
+          "title": "A Quiet Place",
+          "releaseYear": 2018,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Drama",
+            "Horror",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "John Krasinski"
+          ],
+          "cast": [
+            "Emily Blunt",
+            "John Krasinski",
+            "Millicent Simmonds",
+            "Noah Jupe"
+          ],
+          "imdbRating": 7.5,
+          "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+          "overview": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+          "rank": 1,
+          "matchScore": 61,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 17.5,
+            "mood_fit": 15.8,
+            "historical_taste": 10,
+            "critical_rating": 7.5,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        },
+        {
+          "movieId": "m_palm_springs",
+          "title": "Palm Springs",
+          "releaseYear": 2020,
+          "runtimeMinutes": 90,
+          "genres": [
+            "Comedy",
+            "Fantasy",
+            "Mystery",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Max Barbakow"
+          ],
+          "cast": [
+            "Andy Samberg",
+            "Cristin Milioti",
+            "J.K. Simmons"
+          ],
+          "imdbRating": 7.4,
+          "posterUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
+          "overview": "Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
+          "rank": 2,
+          "matchScore": 65,
+          "scoreLabel": "Exploratory discovery",
+          "confidenceLevel": "Exploratory Match",
+          "scoreBreakdown": {
+            "genre_fit": 17.5,
+            "mood_fit": 20.5,
+            "historical_taste": 10,
+            "critical_rating": 7.4,
+            "runtime_fit": 10
+          },
+          "reasons": [
+            "Direct match for requested genres: Sci-Fi",
+            "High mood compatibility (82%) with your current session vibe"
+          ],
+          "uncertaintyFactors": [
+            "Sparse user history: recommendation leans more on explicit session filters than learned preferences"
+          ]
+        }
+      ],
+      "searchMetrics": {
+        "algorithm": "CSP Backtracking with Forward Checking",
+        "nodes_visited": 3,
+        "backtracks": 28,
+        "pruned_domain_values": 927,
+        "execution_time_ms": 0
+      },
+      "createdAt": "2026-11-01T08:22:10.513Z"
+    }
+  ],
+  "watch_events": [
+    {
+      "id": "evt_1793442159677_2uohr3",
+      "userId": "usr_fefb2365714a",
+      "movieId": "m_inception",
+      "eventType": "completed_watch",
+      "value": 5,
+      "occurredAt": "2026-10-31T10:22:39.677Z"
+    },
+    {
+      "id": "evt_1793519184575_u4mknp",
+      "userId": "usr_f41d147d4ba2",
+      "movieId": "m_inception",
+      "eventType": "completed_watch",
+      "value": 5,
+      "occurredAt": "2026-11-01T07:46:24.575Z"
+    },
+    {
+      "id": "evt_1793519417661_y4oiu2",
+      "userId": "usr_5e8c65caa2d8",
+      "sessionId": "sess_1003bab4cb5c",
+      "movieId": "m_palm_springs",
+      "eventType": "save",
+      "occurredAt": "2026-11-01T07:50:17.661Z"
+    },
+    {
+      "id": "evt_1793519647070_jzehdv",
+      "userId": "usr_69ebb4d6a530",
+      "movieId": "m_inception",
+      "eventType": "completed_watch",
+      "value": 5,
+      "occurredAt": "2026-11-01T07:54:07.070Z"
+    },
+    {
+      "id": "evt_1793519859307_uevjqd",
+      "userId": "usr_b85f77ff3a8c",
+      "movieId": "m_inception",
+      "eventType": "completed_watch",
+      "value": 5,
+      "occurredAt": "2026-11-01T07:57:39.307Z"
+    },
+    {
+      "id": "evt_1793520518083_0aah86",
+      "userId": "usr_07bbbc46f515",
+      "movieId": "m_inception",
+      "eventType": "completed_watch",
+      "value": 5,
+      "occurredAt": "2026-11-01T08:08:38.083Z"
+    },
+    {
+      "id": "evt_1793520668938_rsu77o",
+      "userId": "usr_c0be91d2f684",
+      "movieId": "m_inception",
+      "eventType": "completed_watch",
+      "value": 5,
+      "occurredAt": "2026-11-01T08:11:08.938Z"
+    }
+  ],
+  "post_watch_reviews": [
+    {
+      "id": "rev_9b88bb1d0c",
+      "userId": "usr_fefb2365714a",
+      "movieId": "m_inception",
+      "recommendationItemId": "sess_22a622aa168f",
+      "enjoyment": 5,
+      "recommendationAccuracy": 5,
+      "moodMatch": "Yes",
+      "reasonTags": [
+        "Mind Bending",
+        "Genre Match",
+        "Great Cast"
+      ],
+      "diagnosticTrace": {
+        "genre_updates": {
+          "Sci-Fi": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Action": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Thriller": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          }
+        },
+        "enjoyment": 5,
+        "recommendation_accuracy": 5,
+        "mood_match": "Yes",
+        "reason_tags": [
+          "Mind Bending",
+          "Genre Match",
+          "Great Cast"
+        ],
+        "learning_note": "Beliefs updated uniformly. Mood match reported as 'Yes'."
+      },
+      "createdAt": "2026-10-31T10:22:39.676Z"
+    },
+    {
+      "id": "rev_2a0352b20b",
+      "userId": "usr_f41d147d4ba2",
+      "movieId": "m_inception",
+      "recommendationItemId": "sess_78bb001917a3",
+      "enjoyment": 5,
+      "recommendationAccuracy": 5,
+      "moodMatch": "Yes",
+      "reasonTags": [
+        "Mind Bending",
+        "Genre Match",
+        "Great Cast"
+      ],
+      "diagnosticTrace": {
+        "genre_updates": {
+          "Sci-Fi": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Action": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Thriller": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          }
+        },
+        "enjoyment": 5,
+        "recommendation_accuracy": 5,
+        "mood_match": "Yes",
+        "reason_tags": [
+          "Mind Bending",
+          "Genre Match",
+          "Great Cast"
+        ],
+        "learning_note": "Beliefs updated uniformly. Mood match reported as 'Yes'."
+      },
+      "createdAt": "2026-11-01T07:46:24.574Z"
+    },
+    {
+      "id": "rev_3bc5cc8d5b",
+      "userId": "usr_69ebb4d6a530",
+      "movieId": "m_inception",
+      "recommendationItemId": "sess_623cb56322f7",
+      "enjoyment": 5,
+      "recommendationAccuracy": 5,
+      "moodMatch": "Yes",
+      "reasonTags": [
+        "Mind Bending",
+        "Genre Match",
+        "Great Cast"
+      ],
+      "diagnosticTrace": {
+        "genre_updates": {
+          "Sci-Fi": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Action": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Thriller": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          }
+        },
+        "enjoyment": 5,
+        "recommendation_accuracy": 5,
+        "mood_match": "Yes",
+        "reason_tags": [
+          "Mind Bending",
+          "Genre Match",
+          "Great Cast"
+        ],
+        "learning_note": "Beliefs updated uniformly. Mood match reported as 'Yes'."
+      },
+      "createdAt": "2026-11-01T07:54:07.068Z"
+    },
+    {
+      "id": "rev_948faa6655",
+      "userId": "usr_b85f77ff3a8c",
+      "movieId": "m_inception",
+      "recommendationItemId": "sess_43d14d21d2b5",
+      "enjoyment": 5,
+      "recommendationAccuracy": 5,
+      "moodMatch": "Yes",
+      "reasonTags": [
+        "Mind Bending",
+        "Genre Match",
+        "Great Cast"
+      ],
+      "diagnosticTrace": {
+        "genre_updates": {
+          "Sci-Fi": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Action": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Thriller": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          }
+        },
+        "enjoyment": 5,
+        "recommendation_accuracy": 5,
+        "mood_match": "Yes",
+        "reason_tags": [
+          "Mind Bending",
+          "Genre Match",
+          "Great Cast"
+        ],
+        "learning_note": "Beliefs updated uniformly. Mood match reported as 'Yes'."
+      },
+      "createdAt": "2026-11-01T07:57:39.306Z"
+    },
+    {
+      "id": "rev_9cdf389c27",
+      "userId": "usr_07bbbc46f515",
+      "movieId": "m_inception",
+      "recommendationItemId": "sess_1ad6592ead4a",
+      "enjoyment": 5,
+      "recommendationAccuracy": 5,
+      "moodMatch": "Yes",
+      "reasonTags": [
+        "Mind Bending",
+        "Genre Match",
+        "Great Cast"
+      ],
+      "diagnosticTrace": {
+        "genre_updates": {
+          "Sci-Fi": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Action": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Thriller": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          }
+        },
+        "enjoyment": 5,
+        "recommendation_accuracy": 5,
+        "mood_match": "Yes",
+        "reason_tags": [
+          "Mind Bending",
+          "Genre Match",
+          "Great Cast"
+        ],
+        "learning_note": "Beliefs updated uniformly. Mood match reported as 'Yes'."
+      },
+      "createdAt": "2026-11-01T08:08:38.081Z"
+    },
+    {
+      "id": "rev_f6384628a1",
+      "userId": "usr_c0be91d2f684",
+      "movieId": "m_inception",
+      "recommendationItemId": "sess_dced985ee3df",
+      "enjoyment": 5,
+      "recommendationAccuracy": 5,
+      "moodMatch": "Yes",
+      "reasonTags": [
+        "Mind Bending",
+        "Genre Match",
+        "Great Cast"
+      ],
+      "diagnosticTrace": {
+        "genre_updates": {
+          "Sci-Fi": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Action": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          },
+          "Thriller": {
+            "prior": {
+              "alpha": 2,
+              "beta": 2,
+              "mean": 0.5
+            },
+            "posterior": {
+              "alpha": 4.5,
+              "beta": 2.1,
+              "mean": 0.682,
+              "variance": 0.0285,
+              "ci_lower": 0.351,
+              "ci_upper": 1,
+              "evidence_count": 1
+            },
+            "delta": {
+              "delta_alpha": 2.5,
+              "delta_beta": 0.1
+            },
+            "reason": "Strong 5-star positive review"
+          }
+        },
+        "enjoyment": 5,
+        "recommendation_accuracy": 5,
+        "mood_match": "Yes",
+        "reason_tags": [
+          "Mind Bending",
+          "Genre Match",
+          "Great Cast"
+        ],
+        "learning_note": "Beliefs updated uniformly. Mood match reported as 'Yes'."
+      },
+      "createdAt": "2026-11-01T08:11:08.936Z"
+    }
+  ],
+  "watch_party_rooms": [
+    {
+      "id": "room_87d6a939bf",
+      "code": "SW8X1X",
+      "hostUserId": "usr_2f1f29ecd45d",
+      "hostName": "Alice Researcher",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_2f1f29ecd45d",
+          "name": "Alice Researcher",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": [],
+      "createdAt": "2026-10-31T10:08:57.577Z"
+    },
+    {
+      "id": "room_59dfa85458",
+      "code": "JP3FKJ",
+      "hostUserId": "usr_fefb2365714a",
+      "hostName": "Dr. Turing",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_fefb2365714a",
+          "name": "Dr. Turing",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "Dr. Turing": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "Dr. Turing": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "Dr. Turing": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-10-31T10:22:39.655Z"
+    },
+    {
+      "id": "room_38d0d8145a",
+      "code": "982GAV",
+      "hostUserId": "usr_2ae807eb401c",
+      "hostName": "Alice Researcher",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_2ae807eb401c",
+          "name": "Alice Researcher",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": [],
+      "createdAt": "2026-11-01T07:46:18.402Z"
+    },
+    {
+      "id": "room_ba6b3f8636",
+      "code": "YONDJ2",
+      "hostUserId": "usr_f41d147d4ba2",
+      "hostName": "Dr. Turing",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_f41d147d4ba2",
+          "name": "Dr. Turing",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "Dr. Turing": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "Dr. Turing": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "Dr. Turing": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-11-01T07:46:24.541Z"
+    },
+    {
+      "id": "room_9c64fbd5b1",
+      "code": "G4JC9Z",
+      "hostUserId": "usr_69ebb4d6a530",
+      "hostName": "Dr. Turing",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_69ebb4d6a530",
+          "name": "Dr. Turing",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "Dr. Turing": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "Dr. Turing": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "Dr. Turing": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-11-01T07:54:07.039Z"
+    },
+    {
+      "id": "room_cf6b32c087",
+      "code": "HCJMRS",
+      "hostUserId": "usr_b85f77ff3a8c",
+      "hostName": "Dr. Turing",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_b85f77ff3a8c",
+          "name": "Dr. Turing",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "Dr. Turing": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "Dr. Turing": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "Dr. Turing": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-11-01T07:57:39.277Z"
+    },
+    {
+      "id": "room_c2d615670c",
+      "code": "5H41U0",
+      "hostUserId": "usr_07bbbc46f515",
+      "hostName": "Dr. Turing",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_07bbbc46f515",
+          "name": "Dr. Turing",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "Dr. Turing": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "Dr. Turing": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "Dr. Turing": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-11-01T08:08:38.051Z"
+    },
+    {
+      "id": "room_d4752c5d1e",
+      "code": "Z5F6ZQ",
+      "hostUserId": "usr_c0be91d2f684",
+      "hostName": "Dr. Turing",
+      "status": "open",
+      "members": [
+        {
+          "userId": "usr_c0be91d2f684",
+          "name": "Dr. Turing",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [],
+          "vetoes": [],
+          "preferredMood": "energetic",
+          "availability": [
+            "19:00-23:00"
+          ]
+        }
+      ],
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "Dr. Turing": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "Dr. Turing": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "Dr. Turing": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-11-01T08:11:08.910Z"
+    }
+  ],
+  "audit_events": [
+    {
+      "id": "audit_1793441322380_px9vaa",
+      "userId": "usr_688d0ece7a36",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "test_1793441322301@fai-movie.edu"
+      },
+      "createdAt": "2026-10-31T10:08:42.380Z"
+    },
+    {
+      "id": "audit_1793441322451_nhp16n",
+      "userId": "usr_688d0ece7a36",
+      "action": "USER_LOGIN",
+      "metadata": {
+        "email": "test_1793441322301@fai-movie.edu"
+      },
+      "createdAt": "2026-10-31T10:08:42.451Z"
+    },
+    {
+      "id": "audit_1793441322458_kthcg4",
+      "userId": "usr_688d0ece7a36",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 2
+      },
+      "createdAt": "2026-10-31T10:08:42.458Z"
+    },
+    {
+      "id": "audit_1793441337484_1l6g2o",
+      "userId": "usr_2f1f29ecd45d",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "test_1793441337407@fai-movie.edu"
+      },
+      "createdAt": "2026-10-31T10:08:57.484Z"
+    },
+    {
+      "id": "audit_1793441337550_14azus",
+      "userId": "usr_2f1f29ecd45d",
+      "action": "USER_LOGIN",
+      "metadata": {
+        "email": "test_1793441337407@fai-movie.edu"
+      },
+      "createdAt": "2026-10-31T10:08:57.550Z"
+    },
+    {
+      "id": "audit_1793441337558_p1ucsr",
+      "userId": "usr_2f1f29ecd45d",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 2
+      },
+      "createdAt": "2026-10-31T10:08:57.558Z"
+    },
+    {
+      "id": "audit_1793441337578_egzwkr",
+      "userId": "usr_2f1f29ecd45d",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_87d6a939bf",
+        "code": "SW8X1X"
+      },
+      "createdAt": "2026-10-31T10:08:57.578Z"
+    },
+    {
+      "id": "audit_1793442159593_b4pbtr",
+      "userId": "usr_fefb2365714a",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "turing_1793442159@fai.edu"
+      },
+      "createdAt": "2026-10-31T10:22:39.593Z"
+    },
+    {
+      "id": "audit_1793442159601_olnv3r",
+      "userId": "usr_fefb2365714a",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 3
+      },
+      "createdAt": "2026-10-31T10:22:39.601Z"
+    },
+    {
+      "id": "audit_1793442159623_jlzugg",
+      "userId": "usr_fefb2365714a",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_22a622aa168f",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-10-31T10:22:39.623Z"
+    },
+    {
+      "id": "audit_1793442159641_0pm8ve",
+      "userId": "usr_fefb2365714a",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793442159",
+        "movieCount": 3
+      },
+      "createdAt": "2026-10-31T10:22:39.641Z"
+    },
+    {
+      "id": "audit_1793442159650_v30trt",
+      "userId": "usr_fefb2365714a",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-10-31T10:22:39.650Z"
+    },
+    {
+      "id": "audit_1793442159656_ucw00f",
+      "userId": "usr_fefb2365714a",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_59dfa85458",
+        "code": "JP3FKJ"
+      },
+      "createdAt": "2026-10-31T10:22:39.656Z"
+    },
+    {
+      "id": "audit_1793442159678_eg3cka",
+      "userId": "usr_fefb2365714a",
+      "action": "POST_WATCH_REVIEW_SUBMITTED",
+      "metadata": {
+        "reviewId": "rev_9b88bb1d0c",
+        "movieId": "m_inception",
+        "enjoyment": 5,
+        "recommendationAccuracy": 5
+      },
+      "createdAt": "2026-10-31T10:22:39.678Z"
+    },
+    {
+      "id": "audit_1793519178288_75xzdk",
+      "userId": "usr_2ae807eb401c",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "test_1793519178182@fai-movie.edu"
+      },
+      "createdAt": "2026-11-01T07:46:18.288Z"
+    },
+    {
+      "id": "audit_1793519178359_1a612b",
+      "userId": "usr_2ae807eb401c",
+      "action": "USER_LOGIN",
+      "metadata": {
+        "email": "test_1793519178182@fai-movie.edu"
+      },
+      "createdAt": "2026-11-01T07:46:18.359Z"
+    },
+    {
+      "id": "audit_1793519178368_rfo2wc",
+      "userId": "usr_2ae807eb401c",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 2
+      },
+      "createdAt": "2026-11-01T07:46:18.368Z"
+    },
+    {
+      "id": "audit_1793519178404_vsw4zx",
+      "userId": "usr_2ae807eb401c",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_38d0d8145a",
+        "code": "982GAV"
+      },
+      "createdAt": "2026-11-01T07:46:18.404Z"
+    },
+    {
+      "id": "audit_1793519184458_4vg5z8",
+      "userId": "usr_f41d147d4ba2",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "turing_1793519184@fai.edu"
+      },
+      "createdAt": "2026-11-01T07:46:24.458Z"
+    },
+    {
+      "id": "audit_1793519184471_6tofug",
+      "userId": "usr_f41d147d4ba2",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 3
+      },
+      "createdAt": "2026-11-01T07:46:24.471Z"
+    },
+    {
+      "id": "audit_1793519184494_zbgqpv",
+      "userId": "usr_f41d147d4ba2",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_78bb001917a3",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:46:24.494Z"
+    },
+    {
+      "id": "audit_1793519184522_m9pn5i",
+      "userId": "usr_f41d147d4ba2",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793519184",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T07:46:24.522Z"
+    },
+    {
+      "id": "audit_1793519184536_vf23g1",
+      "userId": "usr_f41d147d4ba2",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T07:46:24.536Z"
+    },
+    {
+      "id": "audit_1793519184543_0lwk1x",
+      "userId": "usr_f41d147d4ba2",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_ba6b3f8636",
+        "code": "YONDJ2"
+      },
+      "createdAt": "2026-11-01T07:46:24.543Z"
+    },
+    {
+      "id": "audit_1793519184577_8l5cof",
+      "userId": "usr_f41d147d4ba2",
+      "action": "POST_WATCH_REVIEW_SUBMITTED",
+      "metadata": {
+        "reviewId": "rev_2a0352b20b",
+        "movieId": "m_inception",
+        "enjoyment": 5,
+        "recommendationAccuracy": 5
+      },
+      "createdAt": "2026-11-01T07:46:24.577Z"
+    },
+    {
+      "id": "audit_1793519235555_jvdh5v",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "dummy1@gmail.com"
+      },
+      "createdAt": "2026-11-01T07:47:15.555Z"
+    },
+    {
+      "id": "audit_1793519241756_d33ymb",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 0
+      },
+      "createdAt": "2026-11-01T07:47:21.756Z"
+    },
+    {
+      "id": "audit_1793519267651_rfp3k5",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_3a05a7284655",
+        "movieCount": 1,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:47:47.651Z"
+    },
+    {
+      "id": "audit_1793519370813_jsqt95",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "USER_LOGIN",
+      "metadata": {
+        "email": "dummy1@gmail.com"
+      },
+      "createdAt": "2026-11-01T07:49:30.813Z"
+    },
+    {
+      "id": "audit_1793519389126_9cyvkf",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_49c3873050d0",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:49:49.126Z"
+    },
+    {
+      "id": "audit_1793519414148_mdjzke",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_1003bab4cb5c",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:50:14.149Z"
+    },
+    {
+      "id": "audit_1793519437294_7n4ofq",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_435cfb97674d",
+        "movieCount": 1,
+        "strategy": "beam_search"
+      },
+      "createdAt": "2026-11-01T07:50:37.294Z"
+    },
+    {
+      "id": "audit_1793519646981_0o1qpa",
+      "userId": "usr_69ebb4d6a530",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "turing_1793519646@fai.edu"
+      },
+      "createdAt": "2026-11-01T07:54:06.981Z"
+    },
+    {
+      "id": "audit_1793519646989_pio0qx",
+      "userId": "usr_69ebb4d6a530",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 3
+      },
+      "createdAt": "2026-11-01T07:54:06.989Z"
+    },
+    {
+      "id": "audit_1793519647002_mkyur2",
+      "userId": "usr_69ebb4d6a530",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_623cb56322f7",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:54:07.002Z"
+    },
+    {
+      "id": "audit_1793519647024_d4jse9",
+      "userId": "usr_69ebb4d6a530",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793519647",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T07:54:07.024Z"
+    },
+    {
+      "id": "audit_1793519647034_d5mwup",
+      "userId": "usr_69ebb4d6a530",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T07:54:07.034Z"
+    },
+    {
+      "id": "audit_1793519647042_xig11o",
+      "userId": "usr_69ebb4d6a530",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_9c64fbd5b1",
+        "code": "G4JC9Z"
+      },
+      "createdAt": "2026-11-01T07:54:07.042Z"
+    },
+    {
+      "id": "audit_1793519647072_k16959",
+      "userId": "usr_69ebb4d6a530",
+      "action": "POST_WATCH_REVIEW_SUBMITTED",
+      "metadata": {
+        "reviewId": "rev_3bc5cc8d5b",
+        "movieId": "m_inception",
+        "enjoyment": 5,
+        "recommendationAccuracy": 5
+      },
+      "createdAt": "2026-11-01T07:54:07.072Z"
+    },
+    {
+      "id": "audit_1793519739450_86u10g",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793519739",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T07:55:39.450Z"
+    },
+    {
+      "id": "audit_1793519741933_mbpr8w",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T07:55:41.933Z"
+    },
+    {
+      "id": "audit_1793519756904_pynbqo",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T07:55:56.904Z"
+    },
+    {
+      "id": "audit_1793519757929_juyqvr",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T07:55:57.929Z"
+    },
+    {
+      "id": "audit_1793519841264_hgextu",
+      "userId": "guest_user_1",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_8c30831f465f",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:57:21.264Z"
+    },
+    {
+      "id": "audit_1793519859204_36nul4",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "turing_1793519859@fai.edu"
+      },
+      "createdAt": "2026-11-01T07:57:39.204Z"
+    },
+    {
+      "id": "audit_1793519859213_m7yybx",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 3
+      },
+      "createdAt": "2026-11-01T07:57:39.213Z"
+    },
+    {
+      "id": "audit_1793519859234_sdlsre",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_43d14d21d2b5",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T07:57:39.234Z"
+    },
+    {
+      "id": "audit_1793519859254_1s6ivx",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793519859",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T07:57:39.254Z"
+    },
+    {
+      "id": "audit_1793519859272_8zn8oe",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T07:57:39.272Z"
+    },
+    {
+      "id": "audit_1793519859279_838r7s",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_cf6b32c087",
+        "code": "HCJMRS"
+      },
+      "createdAt": "2026-11-01T07:57:39.279Z"
+    },
+    {
+      "id": "audit_1793519859309_0b8z7z",
+      "userId": "usr_b85f77ff3a8c",
+      "action": "POST_WATCH_REVIEW_SUBMITTED",
+      "metadata": {
+        "reviewId": "rev_948faa6655",
+        "movieId": "m_inception",
+        "enjoyment": 5,
+        "recommendationAccuracy": 5
+      },
+      "createdAt": "2026-11-01T07:57:39.309Z"
+    },
+    {
+      "id": "audit_1793520517976_tn4qgy",
+      "userId": "usr_07bbbc46f515",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "turing_1793520517@fai.edu"
+      },
+      "createdAt": "2026-11-01T08:08:37.976Z"
+    },
+    {
+      "id": "audit_1793520517987_na5vt1",
+      "userId": "usr_07bbbc46f515",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 3
+      },
+      "createdAt": "2026-11-01T08:08:37.987Z"
+    },
+    {
+      "id": "audit_1793520518013_3elfhk",
+      "userId": "usr_07bbbc46f515",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_1ad6592ead4a",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T08:08:38.013Z"
+    },
+    {
+      "id": "audit_1793520518035_z3shde",
+      "userId": "usr_07bbbc46f515",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793520518",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:08:38.035Z"
+    },
+    {
+      "id": "audit_1793520518046_bxkogn",
+      "userId": "usr_07bbbc46f515",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:08:38.046Z"
+    },
+    {
+      "id": "audit_1793520518054_t4xi76",
+      "userId": "usr_07bbbc46f515",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_c2d615670c",
+        "code": "5H41U0"
+      },
+      "createdAt": "2026-11-01T08:08:38.054Z"
+    },
+    {
+      "id": "audit_1793520518085_7o43ll",
+      "userId": "usr_07bbbc46f515",
+      "action": "POST_WATCH_REVIEW_SUBMITTED",
+      "metadata": {
+        "reviewId": "rev_9cdf389c27",
+        "movieId": "m_inception",
+        "enjoyment": 5,
+        "recommendationAccuracy": 5
+      },
+      "createdAt": "2026-11-01T08:08:38.085Z"
+    },
+    {
+      "id": "audit_1793520668857_4kw1u9",
+      "userId": "usr_c0be91d2f684",
+      "action": "USER_REGISTERED",
+      "metadata": {
+        "email": "turing_1793520668@fai.edu"
+      },
+      "createdAt": "2026-11-01T08:11:08.857Z"
+    },
+    {
+      "id": "audit_1793520668865_bitttm",
+      "userId": "usr_c0be91d2f684",
+      "action": "INTERESTS_SAVED",
+      "metadata": {
+        "count": 3
+      },
+      "createdAt": "2026-11-01T08:11:08.865Z"
+    },
+    {
+      "id": "audit_1793520668878_290dah",
+      "userId": "usr_c0be91d2f684",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_dced985ee3df",
+        "movieCount": 2,
+        "strategy": "astar"
+      },
+      "createdAt": "2026-11-01T08:11:08.878Z"
+    },
+    {
+      "id": "audit_1793520668896_5ljivo",
+      "userId": "usr_c0be91d2f684",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793520668",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:11:08.896Z"
+    },
+    {
+      "id": "audit_1793520668905_o78q1h",
+      "userId": "usr_c0be91d2f684",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:11:08.905Z"
+    },
+    {
+      "id": "audit_1793520668913_gujr1a",
+      "userId": "usr_c0be91d2f684",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_d4752c5d1e",
+        "code": "Z5F6ZQ"
+      },
+      "createdAt": "2026-11-01T08:11:08.913Z"
+    },
+    {
+      "id": "audit_1793520668941_ui9y9j",
+      "userId": "usr_c0be91d2f684",
+      "action": "POST_WATCH_REVIEW_SUBMITTED",
+      "metadata": {
+        "reviewId": "rev_f6384628a1",
+        "movieId": "m_inception",
+        "enjoyment": 5,
+        "recommendationAccuracy": 5
+      },
+      "createdAt": "2026-11-01T08:11:08.941Z"
+    },
+    {
+      "id": "audit_1793520941480_d8qmps",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793520941",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:15:41.480Z"
+    },
+    {
+      "id": "audit_1793521330516_7wcmlc",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "RECOMMENDATION_SESSION_CREATED",
+      "metadata": {
+        "sessionId": "sess_458e4218049b",
+        "movieCount": 0,
+        "strategy": "csp"
+      },
+      "createdAt": "2026-11-01T08:22:10.516Z"
+    },
+    {
+      "id": "audit_1793522769037_dndbzy",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522769",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:46:09.037Z"
+    },
+    {
+      "id": "audit_1793522779673_gnbj4g",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522779",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:19.673Z"
+    },
+    {
+      "id": "audit_1793522787444_agswuu",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522787",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:27.444Z"
+    },
+    {
+      "id": "audit_1793522788215_euqgpc",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522788",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:28.215Z"
+    },
+    {
+      "id": "audit_1793522788360_j7g3fw",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522788",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:28.360Z"
+    },
+    {
+      "id": "audit_1793522788523_nhqfad",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522788",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:28.523Z"
+    },
+    {
+      "id": "audit_1793522788653_qwkhwc",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522788",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:28.653Z"
+    },
+    {
+      "id": "audit_1793522788797_gm4qe4",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522788",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:28.797Z"
+    },
+    {
+      "id": "audit_1793522789020_1du4ec",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522789",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:29.020Z"
+    },
+    {
+      "id": "audit_1793522791590_v1gbjg",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:31.590Z"
+    },
+    {
+      "id": "audit_1793522796731_291qfa",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:36.731Z"
+    },
+    {
+      "id": "audit_1793522798822_yhoznx",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:38.822Z"
+    },
+    {
+      "id": "audit_1793522799510_u66my3",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:39.510Z"
+    },
+    {
+      "id": "audit_1793522800276_ovymyu",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:40.276Z"
+    },
+    {
+      "id": "audit_1793522801459_lx63y7",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:41.459Z"
+    },
+    {
+      "id": "audit_1793522802499_qbowzb",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:42.499Z"
+    },
+    {
+      "id": "audit_1793522805074_xukhza",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:46:45.074Z"
+    },
+    {
+      "id": "audit_1793522808499_9lis9r",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522808",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:46:48.499Z"
+    },
+    {
+      "id": "audit_1793522824141_zhbfy5",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522824",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:47:04.141Z"
+    },
+    {
+      "id": "audit_1793522824696_ozynpi",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522824",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:47:04.696Z"
+    },
+    {
+      "id": "audit_1793522824850_d8wa3x",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522824",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:47:04.850Z"
+    },
+    {
+      "id": "audit_1793522825065_u3irgi",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522825",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:47:05.065Z"
+    },
+    {
+      "id": "audit_1793522826768_f5efel",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:47:06.768Z"
+    },
+    {
+      "id": "audit_1793522828299_dglvjh",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522828",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:47:08.299Z"
+    },
+    {
+      "id": "audit_1793522830363_hnc358",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522830",
+        "movieCount": 3
+      },
+      "createdAt": "2026-11-01T08:47:10.363Z"
+    },
+    {
+      "id": "audit_1793522840194_y6zujm",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_PLAN_GENERATED",
+      "metadata": {
+        "planId": "plan_1793522840",
+        "movieCount": 2
+      },
+      "createdAt": "2026-11-01T08:47:20.194Z"
+    },
+    {
+      "id": "audit_1793522843884_6gknhj",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "MARATHON_REPLANNED",
+      "metadata": {
+        "eventType": "movie_skipped"
+      },
+      "createdAt": "2026-11-01T08:47:23.884Z"
+    }
+  ]
+}
