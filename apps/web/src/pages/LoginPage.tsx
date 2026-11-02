@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { authApi } from '../services/api';
-import { Lock, Mail, ArrowRight, AlertCircle, Sparkles } from 'lucide-react';
+import { Lock, Mail, ArrowRight, AlertCircle, Sparkles, UserCheck, Users } from 'lucide-react';
 
 export const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -10,7 +10,7 @@ export const LoginPage: React.FC = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const { login } = useAuth();
+  const { login, quickLogin } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -21,9 +21,22 @@ export const LoginPage: React.FC = () => {
     try {
       const res = await authApi.login({ email, password });
       login(res.data.token, res.data.user);
-      navigate('/dashboard');
+      navigate('/watch-party');
     } catch (err: any) {
       setError(err.response?.data?.error || 'Invalid credentials. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleQuickLogin = async (role: 'host' | 'guest') => {
+    setError('');
+    setLoading(true);
+    try {
+      await quickLogin(role);
+      navigate('/watch-party');
+    } catch (err: any) {
+      setError('Quick login failed.');
     } finally {
       setLoading(false);
     }
@@ -40,10 +53,48 @@ export const LoginPage: React.FC = () => {
           <div className="w-12 h-12 rounded-full bg-white/[0.04] border border-white/[0.08] text-[#f24c27] flex items-center justify-center mx-auto shadow-lg shadow-[#f24c27]/10">
             <Lock className="w-5 h-5" />
           </div>
-          <h1 className="text-2xl font-extrabold text-white tracking-tight">Welcome Back</h1>
+          <h1 className="text-2xl font-extrabold text-white tracking-tight">Sign In to CineMind</h1>
           <p className="text-xs text-[#888896] font-light">
-            Sign in to access your Bayesian taste profile, saved watchlists, and planning sessions.
+            Sign in to access Watch Party rooms, Minimax Couch Wars, and Bayesian taste profiles.
           </p>
+        </div>
+
+        {/* 1-Click Fast Switch for 2-Browser Testing */}
+        <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/[0.08] space-y-3">
+          <span className="tracked-caps text-[#f24c27] text-[11px] block text-center">
+            ⚡ Quick 1-Click Dual-Browser Testing
+          </span>
+          <div className="grid grid-cols-2 gap-2.5">
+            <button
+              type="button"
+              onClick={() => handleQuickLogin('host')}
+              disabled={loading}
+              className="py-2.5 px-3 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] border border-[#f24c27]/40 text-left transition flex items-center gap-2 text-white"
+            >
+              <div className="w-7 h-7 rounded-full bg-[#f24c27]/20 flex items-center justify-center text-[#f24c27] shrink-0">
+                <UserCheck className="w-4 h-4" />
+              </div>
+              <div className="truncate">
+                <div className="text-xs font-bold truncate">Host (Kirtan)</div>
+                <div className="text-[10px] text-[#a0a0ab]">Browser 1</div>
+              </div>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => handleQuickLogin('guest')}
+              disabled={loading}
+              className="py-2.5 px-3 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] border border-purple-500/40 text-left transition flex items-center gap-2 text-white"
+            >
+              <div className="w-7 h-7 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 shrink-0">
+                <Users className="w-4 h-4" />
+              </div>
+              <div className="truncate">
+                <div className="text-xs font-bold truncate">Guest (Turing)</div>
+                <div className="text-[10px] text-[#a0a0ab]">Browser 2</div>
+              </div>
+            </button>
+          </div>
         </div>
 
         {error && (
@@ -65,7 +116,7 @@ export const LoginPage: React.FC = () => {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="student@university.edu"
+                placeholder="dummy1@gmail.com"
                 className="w-full evocuir-glass-pill pl-11 pr-4 py-3 text-xs text-white placeholder-[#555562] focus:outline-none focus:border-[#f24c27] bg-[#0c0c12] transition"
               />
             </div>
@@ -93,7 +144,7 @@ export const LoginPage: React.FC = () => {
             disabled={loading}
             className="w-full btn-evo-accent !text-xs !py-3.5 shadow-xl hover:scale-102 disabled:opacity-50"
           >
-            <span>{loading ? 'Authenticating...' : 'Sign In'}</span>
+            <span>{loading ? 'Authenticating...' : 'Sign In with Password'}</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </form>

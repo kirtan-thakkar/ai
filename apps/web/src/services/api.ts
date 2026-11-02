@@ -19,6 +19,7 @@ api.interceptors.request.use((config) => {
 export const authApi = {
   register: (data: { name: string; email: string; password: string }) => api.post('/auth/register', data),
   login: (data: { email: string; password: string }) => api.post('/auth/login', data),
+  quickLogin: (role: 'host' | 'guest') => api.post('/auth/quick-login', { role }),
   getMe: () => api.get('/users/me'),
   updateProfile: (data: { name: string }) => api.patch('/users/me', data),
   getInterests: () => api.get('/users/me/interests'),
@@ -60,7 +61,16 @@ export const watchPartyApi = {
   get: (idOrCode: string) => api.get(`/watch-parties/${idOrCode}`),
   join: (idOrCode: string) => api.post(`/watch-parties/${idOrCode}/join`),
   updatePreferences: (idOrCode: string, payload: any) => api.post(`/watch-parties/${idOrCode}/availability`, payload),
-  recommend: (idOrCode: string, mode: string) => api.post(`/watch-parties/${idOrCode}/recommend`, { mode })
+  recommend: (idOrCode: string, mode: string) => api.post(`/watch-parties/${idOrCode}/recommend`, { mode }),
+  selectMovie: (idOrCode: string, movie: any) => api.post(`/watch-parties/${idOrCode}/select-movie`, { movie }),
+  syncPlayback: (idOrCode: string, playback: { isPlaying: boolean; currentTime: number }) =>
+    api.post(`/watch-parties/${idOrCode}/sync`, playback),
+  sendChat: (idOrCode: string, payload: { text?: string; reaction?: string }) =>
+    api.post(`/watch-parties/${idOrCode}/chat`, payload),
+  submitPollVote: (idOrCode: string, optionIndex: number) =>
+    api.post(`/watch-parties/${idOrCode}/poll-vote`, { optionIndex }),
+  switchStage: (idOrCode: string, stage: string) =>
+    api.post(`/watch-parties/${idOrCode}/stage`, { stage })
 };
 
 export const feedbackApi = {

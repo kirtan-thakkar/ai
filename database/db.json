@@ -3773,6 +3773,321 @@
         "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
       },
       "createdAt": "2026-11-01T08:11:08.910Z"
+    },
+    {
+      "id": "room_8b32565a07",
+      "code": "WAR-4175",
+      "hostUserId": "usr_5e8c65caa2d8",
+      "hostName": "kirtan",
+      "status": "lobby",
+      "members": [
+        {
+          "userId": "usr_5e8c65caa2d8",
+          "name": "kirtan",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [
+            "Romance"
+          ],
+          "vetoes": [
+            "Horror"
+          ],
+          "preferredMood": "energetic",
+          "status": "ready"
+        },
+        {
+          "userId": "usr_c0be91d2f684",
+          "name": "Dr. Turing",
+          "role": "guest",
+          "likedGenres": [
+            "Mystery",
+            "Thriller",
+            "Comedy"
+          ],
+          "dislikedGenres": [
+            "Action"
+          ],
+          "vetoes": [],
+          "preferredMood": "thoughtful",
+          "status": "ready"
+        }
+      ],
+      "activeMovie": {
+        "id": "m_interstellar",
+        "title": "Interstellar",
+        "release_year": 2014,
+        "runtime": 169,
+        "language": "en",
+        "country": "USA",
+        "genres": [
+          "Sci-Fi",
+          "Drama",
+          "Adventure"
+        ],
+        "age_rating": "PG-13",
+        "violence_level": "mild",
+        "content_descriptors": [
+          "intense space peril",
+          "brief strong language"
+        ],
+        "directors": [
+          "Christopher Nolan"
+        ],
+        "cast": [
+          "Matthew McConaughey",
+          "Anne Hathaway",
+          "Jessica Chastain",
+          "Michael Caine"
+        ],
+        "franchise": null,
+        "themes": [
+          "space_exploration",
+          "black_hole",
+          "time_dilation",
+          "parental_love",
+          "survival"
+        ],
+        "mood_scores": {
+          "chill": 0.4,
+          "energetic": 0.6,
+          "intense": 0.85,
+          "thoughtful": 1,
+          "feel_good": 0.6
+        },
+        "frame_type": "SciFiThrillerFilm",
+        "overview": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+        "imdb_rating": 8.7,
+        "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+        "tags": [
+          "wormhole",
+          "cosmic",
+          "relativity",
+          "emotional_tearjerker"
+        ],
+        "trailerUrl": "https://www.youtube-nocookie.com/embed/zSWdZVtXT7E?enablejsapi=1&autoplay=1",
+        "trivia": [
+          "Nobel laureate physicist Kip Thorne provided the exact Einstein field equations used to render the black hole Gargantua, producing two published scientific papers.",
+          "On Miller's ocean planet, the soundtrack ticks every 1.25 seconds. Each tick represents a full day passing on Earth.",
+          "Christopher Nolan grew an actual 500-acre cornfield in Alberta, Canada for the dust storm farm scenes, and later sold the corn at a financial profit."
+        ],
+        "dilemmaPoll": {
+          "id": "poll_interstellar_1",
+          "question": "Miller's Planet Dilemma: Was Cooper right to risk 23 Earth years to investigate the first beacon signal?",
+          "options": [
+            "Yes, every signal was vital",
+            "No, critical mistake that cost decades"
+          ]
+        },
+        "moodTension": "92% Cosmic Awe • 84% Emotional Gravity"
+      },
+      "playback": {
+        "isPlaying": false,
+        "currentTime": 0,
+        "lastUpdated": "2026-11-02T16:26:15.684Z",
+        "updatedBy": "kirtan"
+      },
+      "chat": [
+        {
+          "id": "msg_welcome",
+          "senderName": "CineMind Bot",
+          "text": "Room WAR-4175 created. Share code \"WAR-4175\" with a friend or open in a second browser to watch together!",
+          "timestamp": "2026-11-02T16:25:27.021Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_join_1793636727029",
+          "senderName": "CineMind Bot",
+          "text": "Dr. Turing joined the watch party! Ready for consensus.",
+          "timestamp": "2026-11-02T16:25:27.029Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793636727054",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Interstellar\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:25:27.054Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_play_1793636727060",
+          "senderName": "CineMind Bot",
+          "text": "Now playing \"Interstellar\". Playback synchronized for all room viewers!",
+          "timestamp": "2026-11-02T16:25:27.060Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_1793636727073_8ezd",
+          "senderId": "usr_c0be91d2f684",
+          "senderName": "Dr. Turing",
+          "text": "",
+          "reaction": "🔥",
+          "timestamp": "2026-11-02T16:25:27.073Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_1793636727080_to6s",
+          "senderId": "usr_c0be91d2f684",
+          "senderName": "Dr. Turing",
+          "text": "Mind-blowing scene!",
+          "reaction": null,
+          "timestamp": "2026-11-02T16:25:27.080Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_vote_1793636727087",
+          "senderName": "AI Co-Pilot",
+          "text": "kirtan voted on dilemma: \"Yes, every signal was vital\"",
+          "timestamp": "2026-11-02T16:25:27.087Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_vote_1793636727093",
+          "senderName": "AI Co-Pilot",
+          "text": "Dr. Turing voted on dilemma: \"No, critical mistake that cost decades\"",
+          "timestamp": "2026-11-02T16:25:27.093Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_1793636760318_psda",
+          "senderId": "usr_5e8c65caa2d8",
+          "senderName": "kirtan",
+          "text": "",
+          "reaction": "🔥",
+          "timestamp": "2026-11-02T16:26:00.318Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_1793636761797_mfre",
+          "senderId": "usr_5e8c65caa2d8",
+          "senderName": "kirtan",
+          "text": "",
+          "reaction": "🤯",
+          "timestamp": "2026-11-02T16:26:01.797Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_1793636762332_nvd6",
+          "senderId": "usr_5e8c65caa2d8",
+          "senderName": "kirtan",
+          "text": "",
+          "reaction": "😱",
+          "timestamp": "2026-11-02T16:26:02.332Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_1793636762799_u9o3",
+          "senderId": "usr_5e8c65caa2d8",
+          "senderName": "kirtan",
+          "text": "",
+          "reaction": "😂",
+          "timestamp": "2026-11-02T16:26:02.799Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_1793636763259_cw3u",
+          "senderId": "usr_5e8c65caa2d8",
+          "senderName": "kirtan",
+          "text": "",
+          "reaction": "🍿",
+          "timestamp": "2026-11-02T16:26:03.259Z",
+          "isSystem": false
+        },
+        {
+          "id": "msg_vote_1793636766476",
+          "senderName": "AI Co-Pilot",
+          "text": "kirtan voted on dilemma: \"Yes, every signal was vital\"",
+          "timestamp": "2026-11-02T16:26:06.477Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_vote_1793636766885",
+          "senderName": "AI Co-Pilot",
+          "text": "kirtan voted on dilemma: \"No, critical mistake that cost decades\"",
+          "timestamp": "2026-11-02T16:26:06.885Z",
+          "isSystem": true
+        }
+      ],
+      "pollVotes": {
+        "usr_5e8c65caa2d8": {
+          "userName": "kirtan",
+          "optionIndex": 1,
+          "votedAt": "2026-11-02T16:26:06.885Z"
+        },
+        "usr_c0be91d2f684": {
+          "userName": "Dr. Turing",
+          "optionIndex": 1,
+          "votedAt": "2026-11-02T16:25:27.093Z"
+        }
+      },
+      "recommendations": {
+        "algorithm": "2-Player Minimax with Alpha-Beta Pruning",
+        "selected_movie": {
+          "id": "m_interstellar",
+          "title": "Interstellar",
+          "release_year": 2014,
+          "runtime": 169,
+          "language": "en",
+          "country": "USA",
+          "genres": [
+            "Sci-Fi",
+            "Drama",
+            "Adventure"
+          ],
+          "age_rating": "PG-13",
+          "violence_level": "mild",
+          "content_descriptors": [
+            "intense space peril",
+            "brief strong language"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "cast": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain",
+            "Michael Caine"
+          ],
+          "franchise": null,
+          "themes": [
+            "space_exploration",
+            "black_hole",
+            "time_dilation",
+            "parental_love",
+            "survival"
+          ],
+          "mood_scores": {
+            "chill": 0.4,
+            "energetic": 0.6,
+            "intense": 0.85,
+            "thoughtful": 1,
+            "feel_good": 0.6
+          },
+          "frame_type": "SciFiThrillerFilm",
+          "overview": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+          "imdb_rating": 8.7,
+          "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+          "tags": [
+            "wormhole",
+            "cosmic",
+            "relativity",
+            "emotional_tearjerker"
+          ]
+        },
+        "minimax_payoff_differential": 0.425,
+        "player1_utility": 0.736,
+        "player2_utility": 0.611,
+        "metrics": {
+          "nodes_evaluated": 14,
+          "alpha_beta_cutoffs": 1,
+          "tree_depth": 3,
+          "execution_time_ms": 1.05
+        }
+      },
+      "createdAt": "2026-11-02T16:25:27.021Z"
     }
   ],
   "audit_events": [
@@ -4696,6 +5011,16 @@
         "eventType": "movie_skipped"
       },
       "createdAt": "2026-11-01T08:47:23.884Z"
+    },
+    {
+      "id": "audit_1793636727023_7btyha",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_8b32565a07",
+        "code": "WAR-4175"
+      },
+      "createdAt": "2026-11-02T16:25:27.023Z"
     }
   ]
 }

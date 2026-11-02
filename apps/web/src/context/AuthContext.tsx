@@ -6,7 +6,9 @@ interface AuthContextType {
   user: User | null;
   token: string | null;
   loading: boolean;
+  isGuest: boolean;
   login: (token: string, user: User) => void;
+  quickLogin: (role: 'host' | 'guest') => Promise<void>;
   logout: () => void;
   refreshUser: () => Promise<void>;
 }
@@ -21,33 +23,48 @@ const defaultGuestUser: User = {
 
 const AuthContext = createContext<AuthContextType>({
   user: defaultGuestUser,
-  token: 'guest_token',
+  token: null,
   loading: false,
+  isGuest: true,
   login: () => {},
+  quickLogin: async () => {},
   logout: () => {},
   refreshUser: async () => {}
 });
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [token, setToken] = useState<string | null>(localStorage.getItem('cinemind_token'));
   const [user, setUser] = useState<User | null>(defaultGuestUser);
-  const [token, setToken] = useState<string | null>(localStorage.getItem('cinemind_token') || 'guest_token');
   const [loading, setLoading] = useState<boolean>(false);
 
+  const isGuest = !token || token === 'guest_token';
+
   const refreshUser = async () => {
+    if (!token || token === 'guest_token') {
+      setUser(defaultGuestUser);
+      return;
+    }
+    setLoading(true);
     try {
       const res = await authApi.getMe();
       if (res.data?.user) {
         setUser(res.data.user);
       }
     } catch (err) {
-      // Fallback to guest user silently without forcing login
+      // If token expired, clear it
+      localStorage.removeItem('cinemind_token');
+      setToken(null);
       setUser(defaultGuestUser);
+    } finally {
+      setLoading(false);
     }
   };
 
   useEffect(() => {
-    if (token && token !== 'guest_token') {
+    if (token) {
       refreshUser();
+    } else {
+      setUser(defaultGuestUser);
     }
   }, [token]);
 
@@ -57,14 +74,26 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setUser(newUser);
   };
 
+  const quickLogin = async (role: 'host' | 'guest') => {
+    setLoading(true);
+    try {
+      const res = await authApi.quickLogin(role);
+      login(res.data.token, res.data.user);
+    } catch (err) {
+      console.error('Quick login failed:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const logout = () => {
     localStorage.removeItem('cinemind_token');
-    setToken('guest_token');
+    setToken(null);
     setUser(defaultGuestUser);
   };
 
   return (
-    <AuthContext.Provider value={{ user, token, loading, login, logout, refreshUser }}>
+    <AuthContext.Provider value={{ user, token, loading, isGuest, login, quickLogin, logout, refreshUser }}>
       {children}
     </AuthContext.Provider>
   );

@@ -87,6 +87,40 @@ router.post('/login', async (req, res) => {
   }
 });
 
+// One-Click Quick Login for Host & Guest Testing
+router.post('/quick-login', (req, res) => {
+  try {
+    const { role = 'host' } = req.body;
+    let user;
+    if (role === 'guest') {
+      user = storage.findUserByEmail('turing_1793520668@fai.edu') || {
+        id: 'usr_guest_demo',
+        name: 'Dr. Turing (Guest)',
+        email: 'turing@fai.edu',
+        status: 'active'
+      };
+    } else {
+      user = storage.findUserByEmail('dummy1@gmail.com') || {
+        id: 'usr_host_demo',
+        name: 'Kirtan (Host)',
+        email: 'dummy1@gmail.com',
+        status: 'active'
+      };
+    }
+
+    const token = jwt.sign({ userId: user.id }, config.JWT_SECRET, { expiresIn: config.JWT_EXPIRES_IN });
+    const { password_hash: _, ...safeUser } = user;
+    return res.json({
+      user: safeUser,
+      token,
+      message: `Logged in as ${safeUser.name}`
+    });
+  } catch (err) {
+    console.error('Quick login error:', err);
+    return res.status(500).json({ error: 'Server error during quick login.' });
+  }
+});
+
 // Current User Profile
 router.get('/users/me', authMiddleware, (req, res) => {
   const { password_hash: _, ...safeUser } = req.user;

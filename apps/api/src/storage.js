@@ -206,6 +206,7 @@ class StorageEngine {
   // Watch Party Rooms
   createWatchPartyRoom(room) {
     const db = this.read();
+    if (!db.watch_party_rooms) db.watch_party_rooms = [];
     db.watch_party_rooms.push(room);
     this.write(db);
     return room;
@@ -213,12 +214,22 @@ class StorageEngine {
 
   getWatchPartyRoom(idOrCode) {
     const db = this.read();
-    return db.watch_party_rooms.find(r => r.id === idOrCode || r.code === idOrCode);
+    if (!db.watch_party_rooms) return null;
+    const query = String(idOrCode || '').trim().toUpperCase();
+    return db.watch_party_rooms.find(r => 
+      (r.id && r.id.toUpperCase() === query) || 
+      (r.code && r.code.toUpperCase() === query)
+    );
   }
 
-  updateWatchPartyRoom(id, updates) {
+  updateWatchPartyRoom(idOrCode, updates) {
     const db = this.read();
-    const idx = db.watch_party_rooms.findIndex(r => r.id === id);
+    if (!db.watch_party_rooms) db.watch_party_rooms = [];
+    const query = String(idOrCode || '').trim().toUpperCase();
+    const idx = db.watch_party_rooms.findIndex(r => 
+      (r.id && r.id.toUpperCase() === query) || 
+      (r.code && r.code.toUpperCase() === query)
+    );
     if (idx !== -1) {
       db.watch_party_rooms[idx] = { ...db.watch_party_rooms[idx], ...updates };
       this.write(db);

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 import { 
   Compass, 
   Bookmark, 
@@ -12,12 +13,16 @@ import {
   X,
   Shuffle,
   ChevronUp,
-  Search
+  Search,
+  LogIn,
+  LogOut,
+  User as UserIcon
 } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const { user, isGuest, logout } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
@@ -109,21 +114,50 @@ export const Navbar: React.FC = () => {
                 })}
               </div>
 
-              <div className="pt-2 border-t border-white/[0.08] flex gap-2">
-                <button
-                  onClick={triggerSurpriseMe}
-                  className="flex-1 py-3 px-4 rounded-full evocuir-glass-pill text-xs font-bold text-white flex items-center justify-center gap-2 border border-white/20"
-                >
-                  <Shuffle className="w-3.5 h-3.5 text-[#f24c27]" />
-                  <span>Surprise Me</span>
-                </button>
-                <Link
-                  to="/discover"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="flex-1 btn-evo-accent !text-xs !py-3 !px-4 text-center justify-center"
-                >
-                  <span>New Search</span>
-                </Link>
+              <div className="pt-2 border-t border-white/[0.08] flex flex-col gap-2">
+                <div className="flex gap-2">
+                  <button
+                    onClick={triggerSurpriseMe}
+                    className="flex-1 py-3 px-4 rounded-full evocuir-glass-pill text-xs font-bold text-white flex items-center justify-center gap-2 border border-white/20"
+                  >
+                    <Shuffle className="w-3.5 h-3.5 text-[#f24c27]" />
+                    <span>Surprise Me</span>
+                  </button>
+                  <Link
+                    to="/discover"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex-1 btn-evo-accent !text-xs !py-3 !px-4 text-center justify-center"
+                  >
+                    <span>New Search</span>
+                  </Link>
+                </div>
+
+                {!isGuest && user ? (
+                  <div className="flex items-center justify-between p-3 rounded-2xl bg-white/[0.04] border border-white/10">
+                    <div className="flex items-center gap-2 text-xs font-bold text-white">
+                      <div className="w-6 h-6 rounded-full bg-[#f24c27]/20 border border-[#f24c27]/40 text-[#f24c27] flex items-center justify-center">
+                        {user.name.charAt(0).toUpperCase()}
+                      </div>
+                      <span>{user.name}</span>
+                    </div>
+                    <button
+                      onClick={() => { logout(); setMobileMenuOpen(false); }}
+                      className="text-xs text-rose-400 font-semibold hover:underline flex items-center gap-1"
+                    >
+                      <LogOut className="w-3.5 h-3.5" />
+                      <span>Log Out</span>
+                    </button>
+                  </div>
+                ) : (
+                  <Link
+                    to="/login"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="w-full py-2.5 px-4 rounded-2xl evocuir-glass-pill text-xs font-bold text-center text-white flex items-center justify-center gap-2 border border-white/10"
+                  >
+                    <LogIn className="w-3.5 h-3.5 text-[#f24c27]" />
+                    <span>Sign In / Switch Profile</span>
+                  </Link>
+                )}
               </div>
             </div>
           </div>
@@ -188,7 +222,7 @@ export const Navbar: React.FC = () => {
             <button 
               onClick={triggerSurpriseMe}
               title="Fast Mood Matching"
-              className="evocuir-glass-pill px-4 py-2 flex items-center gap-2 text-sm font-semibold text-white hover:border-[#f24c27] transition"
+              className="evocuir-glass-pill px-3.5 py-2 flex items-center gap-2 text-sm font-semibold text-white hover:border-[#f24c27] transition"
             >
               <Shuffle className="w-4 h-4 text-[#f24c27]" />
               <span className="hidden xl:inline">Surprise Me</span>
@@ -196,11 +230,36 @@ export const Navbar: React.FC = () => {
 
             <Link
               to="/discover"
-              className="btn-evo-accent !py-2 !px-5 !text-sm !shadow-md"
+              className="btn-evo-accent !py-2 !px-4 !text-sm !shadow-md"
             >
               <Search className="w-3.5 h-3.5" />
-              <span>New Search</span>
+              <span>Discover</span>
             </Link>
+
+            {/* User Auth Status Pill */}
+            {!isGuest && user ? (
+              <div className="flex items-center gap-2 evocuir-glass-pill px-3 py-1.5 border border-white/10 shadow-sm">
+                <div className="w-6 h-6 rounded-full bg-[#f24c27]/20 border border-[#f24c27]/40 text-[#f24c27] flex items-center justify-center text-xs font-bold">
+                  {user.name.charAt(0).toUpperCase()}
+                </div>
+                <span className="text-xs font-bold text-white max-w-[85px] truncate">{user.name}</span>
+                <button 
+                  onClick={logout}
+                  title="Sign Out"
+                  className="text-white/40 hover:text-white transition ml-0.5"
+                >
+                  <LogOut className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            ) : (
+              <Link
+                to="/login"
+                className="evocuir-glass-pill px-3.5 py-2 flex items-center gap-1.5 text-xs font-bold text-[#d4d4e2] hover:text-white hover:border-[#f24c27] transition"
+              >
+                <LogIn className="w-3.5 h-3.5 text-[#f24c27]" />
+                <span>Sign In</span>
+              </Link>
+            )}
           </div>
 
           {/* Mobile Bottom Dock View (Full width flex inside floating pill) */}

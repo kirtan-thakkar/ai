@@ -273,3 +273,27 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent);
 }
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0px) scale(1.15);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-90px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-160px) scale(0.9);
+  }
+}
+
+.animate-floatUp {
+  animation: floatUp 2.8s ease-out forwards;
+}
+
