@@ -38,7 +38,8 @@ export const recommendationsApi = {
   getSession: (id: string) => api.get(`/recommendation-sessions/${id}`),
   sendAction: (sessionId: string, movieId: string, action: string) =>
     api.post(`/recommendation-sessions/${sessionId}/actions`, { movieId, action }),
-  refinePlaylist: (payload: any) => api.post('/recommendations/refine', payload)
+  refinePlaylist: (payload: any) => api.post('/recommendations/refine', payload),
+  whatIf: (payload: any) => api.post('/recommendations/what-if', payload)
 };
 
 export const watchlistApi = {
@@ -87,7 +88,18 @@ export const assistantApi = {
 export const vivaApi = {
   getDiagnostics: () => api.get('/viva/diagnostics'),
   getFrame: (frameId: string) => api.get(`/viva/frames/${frameId}`),
-  getGraphPath: (movieA: string, movieB: string) => api.get(`/viva/graph/path/${movieA}/${movieB}`)
+  getGraphPath: (movieA: string, movieB: string) => api.get(`/viva/graph/path/${movieA}/${movieB}`),
+  getLabDemo: (algorithm: string, param?: string) =>
+    api.get(`/viva/lab-demo/${algorithm}${param ? `?param=${encodeURIComponent(param)}` : ''}`),
+  explainChoice: (payload: {
+    movie_id: string;
+    target_genres?: string[];
+    mood?: number;
+    time_budget_minutes?: number;
+    audience?: string;
+    exclude_violence?: boolean;
+  }) => api.post('/viva/explain-choice', payload),
+  whatIf: (payload: any) => api.post('/viva/what-if', payload)
 };
 
 export default api;

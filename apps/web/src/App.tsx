@@ -13,6 +13,7 @@ import { PlannerPage } from './pages/PlannerPage';
 import { AlternativesPage } from './pages/AlternativesPage';
 import { WatchPartyPage } from './pages/WatchPartyPage';
 import { HistoryPage } from './pages/HistoryPage';
+import { AiLabPage } from './pages/AiLabPage';
 
 export const App: React.FC = () => {
   return (
@@ -31,6 +32,7 @@ export const App: React.FC = () => {
               <Route path="/watch-party" element={<WatchPartyPage />} />
               <Route path="/watch-party/:roomId" element={<WatchPartyPage />} />
               <Route path="/history" element={<HistoryPage />} />
+              <Route path="/ai-lab" element={<AiLabPage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>

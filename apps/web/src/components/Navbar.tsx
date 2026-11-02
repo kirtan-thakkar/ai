@@ -9,6 +9,7 @@ import {
   History, 
   Sparkles,
   Layers,
+  GraduationCap,
   Menu,
   X,
   Shuffle,
@@ -27,6 +28,7 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { to: '/discover', label: 'Discover', icon: Compass },
+    { to: '/ai-lab', label: '🎓 AI Lab', icon: GraduationCap },
     { to: '/watchlist', label: 'Watchlist', icon: Bookmark },
     { to: '/planner', label: 'Planner', icon: Calendar },
     { to: '/watch-party', label: 'Couch War', icon: Users },
