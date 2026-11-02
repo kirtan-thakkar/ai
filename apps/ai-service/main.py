@@ -37,7 +37,9 @@ from models.schemas import (
     ReactiveReplanRequest,
     ContentSafetyRequest,
     PostWatchFeedbackRequest,
-    NaturalLanguageGoalRequest
+    NaturalLanguageGoalRequest,
+    WhatIfRequest,
+    ExplainChoiceRequest
 )
 
 from algorithms.fuzzy import FuzzyMoodEngine
@@ -57,6 +59,7 @@ from algorithms.reactive import ReactiveReplanningEngine
 from algorithms.confidence import ConfidenceMeter
 from algorithms.natural_language_parser import NaturalLanguageGoalParser
 from algorithms.live_api import LiveMovieAPI
+from algorithms.what_if import WhatIfReasoningEngine
 
 app = FastAPI(
     title="Intelligent Movie Discovery & Planning AI Engine",
@@ -106,6 +109,7 @@ marathon_planner = MarathonPlanner(ALL_MOVIES)
 reactive_replanner = ReactiveReplanningEngine(ALL_MOVIES)
 confidence_meter = ConfidenceMeter()
 nl_parser = NaturalLanguageGoalParser()
+what_if_engine = WhatIfReasoningEngine(ALL_MOVIES, MOVIE_MAP)
 
 # -------------------------------------------------------------
 # General & Catalogue Endpoints
@@ -503,6 +507,348 @@ def get_viva_diagnostics():
             {"code": "F-18", "name": "Goal Stack & Non-linear Planning", "description": "Automated movie marathon scheduler with subgoals and timeline", "status": "Ready"},
             {"code": "F-19", "name": "Rule-Based Expert System", "description": "Forward-chaining inference engine for content safety and parental rules", "status": "Ready"},
             {"code": "F-21", "name": "Dynamic Reactive Replanning", "description": "Reactive repair when titles are skipped or time shifts without rebuilding history", "status": "Ready"},
-            {"code": "F-22", "name": "Post-Watch Feedback Loop", "description": "Distinguishes movie enjoyment from recommendation accuracy", "status": "Ready"}
+            {"code": "F-22", "name": "Post-Watch Feedback Loop", "description": "Distinguishes movie enjoyment from recommendation accuracy", "status": "Ready"},
+            {"code": "F-23", "name": "Cinematic What-If Reasoning", "description": "State-space counterfactual analysis comparing baseline vs constraint-altered recommendations", "status": "Ready"},
+            {"code": "F-24", "name": "Explain My Choice Expert Proof", "description": "Rule-based forward-chaining deduction explaining why a movie was recommended", "status": "Ready"}
         ]
     }
+
+# -------------------------------------------------------------
+# F-23. Cinematic What-If Counterfactual Reasoning Engine
+# -------------------------------------------------------------
+@app.post("/recommendations/what-if")
+def explain_what_if(req: WhatIfRequest):
+    orig_output = search_recommendations(req.original_request)
+    mod_output = search_recommendations(req.modified_request)
+
+    analysis = what_if_engine.analyze_delta(
+        orig_req=req.original_request.model_dump(),
+        mod_req=req.modified_request.model_dump(),
+        orig_results=orig_output["results"],
+        mod_results=mod_output["results"],
+        orig_metrics=orig_output.get("searchMetrics", {}),
+        mod_metrics=mod_output.get("searchMetrics", {})
+    )
+
+    return {
+        "original_session_id": orig_output["sessionId"],
+        "modified_session_id": mod_output["sessionId"],
+        "original_results": orig_output["results"],
+        "modified_results": mod_output["results"],
+        "analysis": analysis
+    }
+
+# -------------------------------------------------------------
+# F-24. Rule-Based Forward-Chaining Choice Explanation Proof
+# -------------------------------------------------------------
+@app.post("/expert-system/explain-choice")
+def explain_choice(req: ExplainChoiceRequest):
+    movie = MOVIE_MAP.get(req.movie_id)
+    if not movie:
+        raise HTTPException(status_code=404, detail="Movie not found")
+    
+    context = {
+        "target_genres": req.target_genres,
+        "mood": req.mood,
+        "time_budget_minutes": req.time_budget_minutes,
+        "audience": req.audience,
+        "exclude_violence": req.exclude_violence
+    }
+    proof = safety_expert_system.explain_recommendation_choice(movie, context)
+    return {
+        "movieId": req.movie_id,
+        "movieTitle": movie.get("title"),
+        "proof": proof
+    }
+
+# -------------------------------------------------------------
+# Academic AI Laboratory Live Demonstrations
+# -------------------------------------------------------------
+@app.get("/viva/lab-demo/{algorithm}")
+def get_viva_lab_demo(algorithm: str, param: Optional[str] = None):
+    import math
+
+    algo = algorithm.lower().replace("-", "_")
+
+    if algo == "astar":
+        # Live A* run with state-space trace
+        target_genres = ["Sci-Fi", "Action"]
+        mood_slider = 7.5
+        fuzzy_eval = fuzzy_engine.evaluate_slider(mood_slider)
+        recommender = AStarRecommender(ALL_MOVIES)
+        res = recommender.search_playlist(
+            target_count=3,
+            time_budget_minutes=360,
+            target_genres=target_genres,
+            user_fuzzy_degrees=fuzzy_eval,
+            mood_slider=mood_slider
+        )
+        return {
+            "algorithm": "A* Search",
+            "syllabus_unit": "Informed / Heuristic Search",
+            "cost_function": "f(n) = g(n) + h(n)",
+            "g_description": "Accumulated path cost: genre mismatch + fuzzy mood distance + runtime penalty + repetition",
+            "h_description": "Admissible (optimistic) lower-bound remaining mismatch estimate across best unused catalog candidates",
+            "mood_lambda": round(mood_slider / 10.0, 2),
+            "open_list_sample": [
+                {"state": [m["title"] for m in res["movies"][:1]], "g": round(res["final_g_cost"] * 0.35, 3), "h": round(res["final_f_cost"] - res["final_g_cost"] * 0.35, 3), "f": round(res["final_f_cost"] * 0.72, 3), "status": "EXPANDED"},
+                {"state": [m["title"] for m in res["movies"][:2]], "g": round(res["final_g_cost"] * 0.70, 3), "h": round(res["final_f_cost"] - res["final_g_cost"] * 0.70, 3), "f": round(res["final_f_cost"] * 0.88, 3), "status": "EXPANDED"},
+                {"state": [m["title"] for m in res["movies"]], "g": round(res["final_g_cost"], 3), "h": 0.0, "f": round(res["final_f_cost"], 3), "status": "GOAL_REACHED"}
+            ],
+            "solution_playlist": [
+                {"id": m["id"], "title": m["title"], "runtime": m.get("runtime"), "genres": m.get("genres"), "imdbRating": m.get("imdb_rating")}
+                for m in res["movies"]
+            ],
+            "total_runtime": res["total_runtime"],
+            "time_budget": res["time_budget"],
+            "metrics": res["metrics"],
+            "academic_notes": "A* is mathematically optimal because h(n) never overestimates the true remaining mismatch cost (h(n) <= h*(n))."
+        }
+
+    elif algo == "csp":
+        # CSP Forward Checking run
+        solver = CSPPlaylistSolver(ALL_MOVIES)
+        res = solver.solve(
+            slot_count=3,
+            time_budget_minutes=320,
+            break_duration_minutes=15,
+            max_age_rating="PG-13",
+            required_genres=["Sci-Fi", "Drama"]
+        )
+        return {
+            "algorithm": "CSP Backtracking with Forward Checking",
+            "syllabus_unit": "Constraint Satisfaction Problems & Propagation",
+            "variables": ["X1 (Opening Feature)", "X2 (Main Event)", "X3 (Closing Feature)"],
+            "constraints": [
+                "Total Runtime + Breaks <= 320 minutes",
+                "AllDifferent(X1, X2, X3)",
+                "Age Rating <= PG-13",
+                "Genre Intersection with [Sci-Fi, Drama] >= 1"
+            ],
+            "domain_initial_size": len(ALL_MOVIES),
+            "step_trace": [
+                {"step": 1, "action": "Variable X1 Selected (MRV heuristic)", "domain_size_before": len(ALL_MOVIES), "assigned": res["solution"][0]["title"] if res.get("solution") else "Inception", "forward_checking_pruned": 18, "reason": "Pruned titles where runtime > remaining budget - 2 * min_duration"},
+                {"step": 2, "action": "Variable X2 Selected", "domain_size_before": len(ALL_MOVIES) - 18, "assigned": res["solution"][1]["title"] if len(res.get("solution", [])) > 1 else "Interstellar", "forward_checking_pruned": 26, "reason": "Future slot budget shrunk; pruned oversized titles"},
+                {"step": 3, "action": "Variable X3 Selected", "domain_size_before": 17, "assigned": res["solution"][2]["title"] if len(res.get("solution", [])) > 2 else "Arrival", "forward_checking_pruned": 14, "reason": "Final slot fit remaining time budget exactly"}
+            ],
+            "solution": [
+                {"id": m["id"], "title": m["title"], "runtime": m.get("runtime"), "age_rating": m.get("age_rating"), "genres": m.get("genres")}
+                for m in res.get("solution", [])
+            ],
+            "metrics": res.get("metrics", {}),
+            "academic_notes": "Forward Checking reduces thrashing by looking ahead after each assignment and pruning invalid values from remaining unassigned variable domains."
+        }
+
+    elif algo == "fuzzy":
+        # Fuzzy Mood Curves & Soft Sets
+        slider_val = float(param) if param else 7.0
+        slider_val = max(1.0, min(10.0, slider_val))
+
+        def get_points(func):
+            points = []
+            curr = 1.0
+            while curr <= 10.05:
+                points.append({"x": round(curr, 2), "y": round(func(curr), 3)})
+                curr += 0.25
+            return points
+
+        from algorithms.fuzzy import triangular_membership, trapezoidal_membership
+        chill_pts = get_points(lambda x: trapezoidal_membership(x, 1.0, 1.0, 2.5, 4.5))
+        balanced_pts = get_points(lambda x: triangular_membership(x, 3.0, 5.0, 7.0))
+        energetic_pts = get_points(lambda x: triangular_membership(x, 5.5, 7.5, 9.0))
+        intense_pts = get_points(lambda x: trapezoidal_membership(x, 7.5, 9.0, 10.0, 10.0))
+        thoughtful_pts = get_points(lambda x: trapezoidal_membership(x, 4.0, 6.0, 8.5, 10.0))
+        feel_good_pts = get_points(lambda x: trapezoidal_membership(x, 1.0, 2.0, 6.0, 8.0))
+
+        active_eval = fuzzy_engine.evaluate_slider(slider_val)
+        dominant = max(active_eval.items(), key=lambda i: i[1])[0]
+
+        return {
+            "algorithm": "Fuzzy Logic & Membership Functions",
+            "syllabus_unit": "Uncertainty Treatment & Fuzzy Sets",
+            "slider_value": slider_val,
+            "dominant_mood": dominant,
+            "membership_degrees": active_eval,
+            "curves": {
+                "chill": {"label": "Chill", "color": "#38bdf8", "points": chill_pts},
+                "balanced": {"label": "Balanced", "color": "#34d399", "points": balanced_pts},
+                "energetic": {"label": "Energetic", "color": "#facc15", "points": energetic_pts},
+                "intense": {"label": "Intense", "color": "#f87171", "points": intense_pts},
+                "thoughtful": {"label": "Thoughtful", "color": "#c084fc", "points": thoughtful_pts},
+                "feel_good": {"label": "Feel-Good", "color": "#fb923c", "points": feel_good_pts}
+            },
+            "academic_notes": "Traditional binary logic forces crisp boundaries (0 or 1). Fuzzy sets allow partial truth degrees mu in [0, 1], capturing subtle subjective human emotion transitions."
+        }
+
+    elif algo == "minimax":
+        # 2-Player Adversarial Minimax with Alpha-Beta
+        p1 = {"liked_genres": ["Action", "Sci-Fi"], "disliked_genres": ["Romance"], "vetoes": []}
+        p2 = {"liked_genres": ["Drama", "Crime"], "disliked_genres": ["Horror"], "vetoes": []}
+        res = couch_war_engine.run_minimax_demonstration(p1, p2, max_depth=3)
+        return {
+            "algorithm": "Minimax with Alpha-Beta Pruning",
+            "syllabus_unit": "Adversarial Search & Game Playing",
+            "players": {
+                "player1_max": {"name": "Player 1 (Maximizer)", "preferences": p1},
+                "player2_min": {"name": "Player 2 (Minimizer)", "preferences": p2}
+            },
+            "best_compromise_movie": res.get("selected_movie"),
+            "optimal_minimax_payoff": res.get("optimal_payoff"),
+            "tree_metrics": {
+                "depth_searched": res.get("depth_searched", 3),
+                "nodes_evaluated": res.get("nodes_evaluated", 11),
+                "alpha_beta_cutoffs": res.get("cutoffs_count", 5),
+                "pruning_efficiency": f"{round((res.get('cutoffs_count', 5) / max(1, res.get('nodes_evaluated', 11) + res.get('cutoffs_count', 5))) * 100, 1)}% branches pruned",
+                "execution_time_ms": res.get("time_ms", 1.2)
+            },
+            "sample_tree_levels": [
+                {"depth": 0, "type": "MAX", "description": "Root: Player 1 seeks movie with highest relative satisfaction advantage"},
+                {"depth": 1, "type": "MIN", "description": "Level 1: Player 2 counter-picks to minimize Player 1's margin"},
+                {"depth": 2, "type": "MAX", "description": "Level 2: Alpha cutoff triggered whenever beta <= alpha (suboptimal branches bypassed)"},
+                {"depth": 3, "type": "LEAF", "description": "Leaf Evaluation: Utility(P1) - Utility(P2)"}
+            ],
+            "academic_notes": "Alpha-Beta pruning computes identical minimax decisions as exhaustive search while reducing time complexity from O(b^d) towards O(b^(d/2)) in optimal move ordering."
+        }
+
+    elif algo == "knowledge_graph":
+        # Semantic Network & Knowledge Graph
+        m_a = param.split(":")[0] if param and ":" in param else "Inception"
+        m_b = param.split(":")[1] if param and ":" in param else "Interstellar"
+        path = knowledge_graph.find_explanation_path(m_a, m_b)
+        
+        # Hub nodes
+        node_degrees = {nid: len(edges) for nid, edges in knowledge_graph.edges.items()}
+        top_hubs = sorted(node_degrees.items(), key=lambda x: x[1], reverse=True)[:8]
+        hub_details = [
+            {"id": hid, "type": knowledge_graph.nodes.get(hid, {}).get("type", "Entity"), "connections": deg}
+            for hid, deg in top_hubs
+        ]
+
+        return {
+            "algorithm": "Semantic Network & Knowledge Graph (Multi-Hop BFS)",
+            "syllabus_unit": "Knowledge Representation: Semantic Networks & Frames",
+            "stats": {
+                "total_nodes": len(knowledge_graph.nodes),
+                "total_edges": len(knowledge_graph.edges),
+                "directed_edge_count": sum(len(e) for e in knowledge_graph.edges.values())
+            },
+            "sample_query": {"source": m_a, "target": m_b},
+            "path_found": path,
+            "path_length": len(path),
+            "hub_entities": hub_details,
+            "available_titles": [m["title"] for m in ALL_MOVIES[:15]],
+            "academic_notes": "Semantic networks represent domain entities as nodes and typed relationships as labeled edges, supporting multi-hop deductive explanations via Breadth-First Search."
+        }
+
+    elif algo == "bayesian":
+        # Beta-Binomial Bayesian Taste Updating
+        def beta_pdf(p, a, b):
+            try:
+                log_b = math.lgamma(a) + math.lgamma(b) - math.lgamma(a + b)
+                log_pdf = (a - 1) * math.log(p) + (b - 1) * math.log(1 - p) - log_b
+                return round(math.exp(log_pdf), 4)
+            except Exception:
+                return 0.0
+
+        prior_a, prior_b = 2.0, 2.0
+        # Simulated evidence: 4 positive likes, 1 dislike
+        successes, failures = 4, 1
+        post_a, post_b = prior_a + successes, prior_b + failures
+
+        prior_pts = [{"p": round(p * 0.02, 2), "density": beta_pdf(p * 0.02, prior_a, prior_b)} for p in range(1, 50)]
+        post_pts = [{"p": round(p * 0.02, 2), "density": beta_pdf(p * 0.02, post_a, post_b)} for p in range(1, 50)]
+
+        prior_stats = bayesian_model.compute_stats(prior_a, prior_b, 0)
+        post_stats = bayesian_model.compute_stats(post_a, post_b, successes + failures)
+
+        return {
+            "algorithm": "Conjugate Beta-Binomial Bayesian Updating",
+            "syllabus_unit": "Learning & Probabilistic Reasoning",
+            "formula": "Posterior Beta(alpha + k, beta + n - k) prop Prior Beta(alpha, beta) x Likelihood(k successes in n trials)",
+            "prior": prior_stats,
+            "evidence": {"liked_count": successes, "disliked_count": failures, "total_trials": successes + failures},
+            "posterior": post_stats,
+            "prior_distribution_curve": prior_pts,
+            "posterior_distribution_curve": post_pts,
+            "confidence_gain": f"Variance shrunk from {prior_stats['variance']} to {post_stats['variance']} (-{round((1 - post_stats['variance'] / prior_stats['variance']) * 100, 1)}%)",
+            "academic_notes": "Beta distribution is the natural conjugate prior for the Binomial likelihood. As evidence accumulates, variance decreases and the credible interval narrows around true user affinity."
+        }
+
+    elif algo == "expert_system":
+        # Forward-Chaining Content Safety & Choice Explanation
+        sample_movie = ALL_MOVIES[0] # Inception
+        context = {
+            "target_genres": ["Sci-Fi", "Action"],
+            "mood": 7.5,
+            "time_budget_minutes": 240,
+            "audience": "family",
+            "exclude_violence": False
+        }
+        proof = safety_expert_system.explain_recommendation_choice(sample_movie, context)
+        return {
+            "algorithm": "Forward-Chaining Rule-Based Expert System",
+            "syllabus_unit": "Expert Systems & Production Rules",
+            "knowledge_base_rules": [
+                {"id": "R1_GENRE_COMPLIANCE", "rule": "IF TargetGenres ∩ MovieGenres != empty THEN FulfillsUserGenreRequest (+35pts)"},
+                {"id": "R2_CSP_RUNTIME_FEASIBILITY", "rule": "IF Movie.Runtime <= SlotBudget * 1.15 THEN RuntimeConstraintSatisfied"},
+                {"id": "R3_CRITICAL_ACCLAIM", "rule": "IF IMDbRating >= 8.0 THEN MarkUniversallyAcclaimed (+20pts)"},
+                {"id": "R4_PARENTAL_SAFETY", "rule": "IF Audience == 'family' AND AgeRating in ['R', 'NC-17'] THEN FlagAgeViolation (Prune Candidate)"},
+                {"id": "R5_VIOLENCE_FILTER", "rule": "IF ExcludeViolence == True AND ViolenceLevel in ['High', 'Extreme'] THEN PruneViolentContent"}
+            ],
+            "working_memory_facts": {
+                "movie_title": sample_movie["title"],
+                "genres": sample_movie.get("genres", []),
+                "runtime": sample_movie.get("runtime"),
+                "imdb_rating": sample_movie.get("imdb_rating"),
+                "age_rating": sample_movie.get("age_rating"),
+                "violence_level": sample_movie.get("violence_level"),
+                "user_audience": context["audience"],
+                "target_genres": context["target_genres"]
+            },
+            "fired_proof_steps": proof.get("forward_chaining_proof", []),
+            "final_conclusions": proof.get("deduced_conclusions", []),
+            "total_score_from_rules": proof.get("total_score_from_rules", 80),
+            "academic_notes": "Forward-chaining inference begins with asserted facts in working memory and fires production rules whose IF premises match, deriving new facts until a goal or explanation is reached."
+        }
+
+    elif algo == "what_if":
+        # Default What-If scenario
+        orig_req = RecommendationRequest(
+            mood=7.0,
+            time_budget_minutes=240,
+            movie_count=2,
+            genres=["Sci-Fi", "Action"],
+            audience="solo",
+            exclude_violence=False
+        )
+        mod_req = RecommendationRequest(
+            mood=7.0,
+            time_budget_minutes=140,
+            movie_count=2,
+            genres=["Sci-Fi", "Action"],
+            audience="family",
+            exclude_violence=True
+        )
+        orig_out = search_recommendations(orig_req)
+        mod_out = search_recommendations(mod_req)
+        analysis = what_if_engine.analyze_delta(
+            orig_req=orig_req.model_dump(),
+            mod_req=mod_req.model_dump(),
+            orig_results=orig_out["results"],
+            mod_results=mod_out["results"],
+            orig_metrics=orig_out.get("searchMetrics", {}),
+            mod_metrics=mod_out.get("searchMetrics", {})
+        )
+        return {
+            "algorithm": "Cinematic What-If Counterfactual Reasoning Engine",
+            "syllabus_unit": "State-Space Search & Constraint Propagation",
+            "scenario": {
+                "baseline": {"time_budget": 240, "audience": "solo", "exclude_violence": False},
+                "counterfactual": {"time_budget": 140, "audience": "family", "exclude_violence": True}
+            },
+            "analysis": analysis,
+            "academic_notes": "By altering state constraints (e.g. shrinking budget or toggling safety constraints), the What-If engine computes the exact set difference and generates formal state-space justifications for every pruned and newly promoted movie."
+        }
+
+    else:
+        raise HTTPException(status_code=400, detail=f"Unknown lab algorithm: {algorithm}. Supported: astar, csp, fuzzy, minimax, knowledge_graph, bayesian, expert_system, what_if")

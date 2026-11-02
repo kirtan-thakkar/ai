@@ -70,3 +70,15 @@ class PostWatchFeedbackRequest(BaseModel):
 
 class NaturalLanguageGoalRequest(BaseModel):
     prompt: str
+
+class WhatIfRequest(BaseModel):
+    original_request: RecommendationRequest
+    modified_request: RecommendationRequest
+
+class ExplainChoiceRequest(BaseModel):
+    movie_id: str
+    target_genres: List[str] = Field(default_factory=list)
+    mood: float = 7.0
+    time_budget_minutes: int = 180
+    audience: str = "solo"
+    exclude_violence: bool = False
