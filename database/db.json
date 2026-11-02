@@ -4088,6 +4088,317 @@
         }
       },
       "createdAt": "2026-11-02T16:25:27.021Z"
+    },
+    {
+      "id": "room_aacac64991",
+      "code": "WAR-1620",
+      "hostUserId": "usr_5e8c65caa2d8",
+      "hostName": "kirtan",
+      "status": "lobby",
+      "members": [
+        {
+          "userId": "usr_5e8c65caa2d8",
+          "name": "kirtan",
+          "role": "host",
+          "likedGenres": [
+            "Sci-Fi",
+            "Action"
+          ],
+          "dislikedGenres": [
+            "Romance"
+          ],
+          "vetoes": [
+            "Horror"
+          ],
+          "preferredMood": "energetic",
+          "status": "ready"
+        }
+      ],
+      "activeMovie": null,
+      "playback": {
+        "isPlaying": false,
+        "currentTime": 0,
+        "lastUpdated": "2026-11-02T16:49:09.332Z",
+        "updatedBy": "kirtan"
+      },
+      "chat": [
+        {
+          "id": "msg_welcome",
+          "senderName": "CineMind Bot",
+          "text": "Room WAR-1620 created. Share code \"WAR-1620\" with a friend or open in a second browser to watch together!",
+          "timestamp": "2026-11-02T16:49:09.332Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638152410",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:12.410Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638153480",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:13.480Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154028",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.028Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154175",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.175Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154319",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.319Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154508",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.508Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154639",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.639Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154807",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.807Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638154979",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:14.979Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638155111",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:15.111Z",
+          "isSystem": true
+        },
+        {
+          "id": "msg_rec_1793638155320",
+          "senderName": "CineMind Arbiter",
+          "text": "Game-Theoretic Consensus reached: \"Spider-Man: Across the Spider-Verse\" satisfies mutual utilities!",
+          "timestamp": "2026-11-02T16:49:15.320Z",
+          "isSystem": true
+        }
+      ],
+      "pollVotes": {},
+      "recommendations": {
+        "strategy": "Max-Min Group Fairness & Nash Social Welfare",
+        "participant_count": 1,
+        "recommendations": [
+          {
+            "movie": {
+              "id": "m_spider_verse_2",
+              "title": "Spider-Man: Across the Spider-Verse",
+              "release_year": 2023,
+              "runtime": 140,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "PG",
+              "violence_level": "mild",
+              "content_descriptors": [
+                "sequences of animated action violence",
+                "thematic elements"
+              ],
+              "directors": [
+                "Joaquim Dos Santos",
+                "Kemp Powers",
+                "Justin K. Thompson"
+              ],
+              "cast": [
+                "Shameik Moore",
+                "Hailee Steinfeld",
+                "Oscar Isaac",
+                "Daniel Kaluuya"
+              ],
+              "franchise": "Marvel",
+              "themes": [
+                "canon_events",
+                "destiny_rebellion",
+                "multiverse_society",
+                "family_protection"
+              ],
+              "mood_scores": {
+                "chill": 0.3,
+                "energetic": 1,
+                "intense": 0.85,
+                "thoughtful": 0.8,
+                "feel_good": 0.8
+              },
+              "frame_type": "MarvelFilm",
+              "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+              "imdb_rating": 8.6,
+              "poster_url": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600",
+              "tags": [
+                "spider_punk",
+                "miguel_o_hara",
+                "visual_symphony",
+                "cliffhanger"
+              ]
+            },
+            "min_satisfaction": 0.958,
+            "average_satisfaction": 0.958,
+            "nash_score": 1.008,
+            "member_breakdown": {
+              "kirtan": 0.958
+            }
+          },
+          {
+            "movie": {
+              "id": "m_the_matrix",
+              "title": "The Matrix",
+              "release_year": 1999,
+              "runtime": 136,
+              "language": "en",
+              "country": "USA",
+              "genres": [
+                "Action",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "sci-fi violence and action",
+                "brief language"
+              ],
+              "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+              ],
+              "cast": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss",
+                "Hugo Weaving"
+              ],
+              "franchise": null,
+              "themes": [
+                "simulated_reality",
+                "artificial_intelligence",
+                "chosen_one",
+                "cyberpunk"
+              ],
+              "mood_scores": {
+                "chill": 0.2,
+                "energetic": 0.95,
+                "intense": 0.85,
+                "thoughtful": 0.85,
+                "feel_good": 0.5
+              },
+              "frame_type": "SciFiThrillerFilm",
+              "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+              "imdb_rating": 8.7,
+              "poster_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "bullet_time",
+                "red_pill",
+                "kung_fu",
+                "iconic"
+              ]
+            },
+            "min_satisfaction": 0.951,
+            "average_satisfaction": 0.951,
+            "nash_score": 1.001,
+            "member_breakdown": {
+              "kirtan": 0.951
+            }
+          },
+          {
+            "movie": {
+              "id": "m_mad_max_fury_road",
+              "title": "Mad Max: Fury Road",
+              "release_year": 2015,
+              "runtime": 120,
+              "language": "en",
+              "country": "Australia",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+              ],
+              "age_rating": "R",
+              "violence_level": "moderate",
+              "content_descriptors": [
+                "intense sequences of violence throughout",
+                "disturbing images"
+              ],
+              "directors": [
+                "George Miller"
+              ],
+              "cast": [
+                "Tom Hardy",
+                "Charlize Theron",
+                "Nicholas Hoult",
+                "Hugh Keays-Byrne"
+              ],
+              "franchise": null,
+              "themes": [
+                "post_apocalyptic",
+                "high_octane_chase",
+                "rebellion",
+                "wasteland"
+              ],
+              "mood_scores": {
+                "chill": 0.1,
+                "energetic": 1,
+                "intense": 0.95,
+                "thoughtful": 0.5,
+                "feel_good": 0.6
+              },
+              "frame_type": "ActionBlockbusterFilm",
+              "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+              "imdb_rating": 8.1,
+              "poster_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80",
+              "tags": [
+                "practical_stunts",
+                "flame_guitar",
+                "furiosa",
+                "kinetic_cinema"
+              ]
+            },
+            "min_satisfaction": 0.943,
+            "average_satisfaction": 0.943,
+            "nash_score": 0.993,
+            "member_breakdown": {
+              "kirtan": 0.943
+            }
+          }
+        ],
+        "compromise_analysis": "Selected 'Spider-Man: Across the Spider-Verse' using Max-Min Fairness: every participant has at least 95% satisfaction, with an overall average of 95%."
+      },
+      "createdAt": "2026-11-02T16:49:09.332Z"
     }
   ],
   "audit_events": [
@@ -5021,6 +5332,16 @@
         "code": "WAR-4175"
       },
       "createdAt": "2026-11-02T16:25:27.023Z"
+    },
+    {
+      "id": "audit_1793638149337_gh0l80",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "WATCH_PARTY_CREATED",
+      "metadata": {
+        "roomId": "room_aacac64991",
+        "code": "WAR-1620"
+      },
+      "createdAt": "2026-11-02T16:49:09.337Z"
     }
   ]
 }

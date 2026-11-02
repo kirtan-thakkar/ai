@@ -149,4 +149,16 @@ router.post('/recommendations/refine', authMiddleware, async (req, res) => {
   }
 });
 
+// Cinematic What-If Counterfactual Reasoning
+router.post('/recommendations/what-if', async (req, res) => {
+  try {
+    const aiResponse = await axios.post(`${config.AI_SERVICE_URL}/recommendations/what-if`, req.body);
+    return res.json(aiResponse.data);
+  } catch (err) {
+    console.error('What-If error:', err.message);
+    const detail = err.response?.data?.detail || err.message;
+    return res.status(502).json({ error: `What-If analysis failed: ${detail}` });
+  }
+});
+
 module.exports = router;
