@@ -21,7 +21,7 @@ export const LoginPage: React.FC = () => {
     try {
       const res = await authApi.login({ email, password });
       login(res.data.token, res.data.user);
-      navigate('/watch-party');
+      navigate('/discover');
     } catch (err: any) {
       setError(err.response?.data?.error || 'Invalid credentials. Please try again.');
     } finally {
@@ -34,12 +34,17 @@ export const LoginPage: React.FC = () => {
     setLoading(true);
     try {
       await quickLogin(role);
-      navigate('/watch-party');
+      navigate('/discover');
     } catch (err: any) {
       setError('Quick login failed.');
     } finally {
       setLoading(false);
     }
+  };
+
+  const fillDemoCredentials = () => {
+    setEmail('dummy1@gmail.com');
+    setPassword('password123');
   };
 
   return (
@@ -137,6 +142,17 @@ export const LoginPage: React.FC = () => {
                 className="w-full evocuir-glass-pill pl-11 pr-4 py-3 text-xs text-white placeholder-[#555562] focus:outline-none focus:border-[#f24c27] bg-[#0c0c12] transition"
               />
             </div>
+          </div>
+
+          <div className="flex justify-between items-center text-[11px] pt-1">
+            <button
+              type="button"
+              onClick={fillDemoCredentials}
+              className="text-[#f24c27] hover:underline font-semibold"
+            >
+              Fill demo credentials (dummy1@gmail.com)
+            </button>
+            <span className="text-[#666675]">Pass: password123</span>
           </div>
 
           <button

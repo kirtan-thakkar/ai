@@ -5342,6 +5342,24 @@
         "code": "WAR-1620"
       },
       "createdAt": "2026-11-02T16:49:09.337Z"
+    },
+    {
+      "id": "audit_1793638782449_7w3q6d",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "USER_LOGIN",
+      "metadata": {
+        "email": "dummy1@gmail.com"
+      },
+      "createdAt": "2026-11-02T16:59:42.449Z"
+    },
+    {
+      "id": "audit_1793638810665_i6je21",
+      "userId": "usr_5e8c65caa2d8",
+      "action": "USER_LOGIN",
+      "metadata": {
+        "email": "dummy1@gmail.com"
+      },
+      "createdAt": "2026-11-02T17:00:10.665Z"
     }
   ]
 }

@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { to: '/discover', label: 'Discover', icon: Compass },
-    { to: '/ai-lab', label: '🎓 AI Lab', icon: GraduationCap },
+    { to: '/ai-lab', label: 'AI Lab', icon: GraduationCap },
     { to: '/watchlist', label: 'Watchlist', icon: Bookmark },
     { to: '/planner', label: 'Planner', icon: Calendar },
     { to: '/watch-party', label: 'Couch War', icon: Users },
@@ -39,8 +39,8 @@ export const Navbar: React.FC = () => {
   // Mobile dock primary links
   const mobileDockLinks = [
     { to: '/discover', label: 'Discover', icon: Compass },
+    { to: '/ai-lab', label: 'AI Lab', icon: GraduationCap },
     { to: '/watchlist', label: 'Watchlist', icon: Bookmark },
-    { to: '/planner', label: 'Planner', icon: Calendar },
     { to: '/watch-party', label: 'Couch War', icon: Users },
   ];
 
@@ -166,38 +166,29 @@ export const Navbar: React.FC = () => {
         )}
 
         {/* Desktop & Mobile Main Glass Pill */}
-        <nav className="evocuir-glass-nav pointer-events-auto flex items-center justify-between gap-3">
+        <nav className="evocuir-glass-nav pointer-events-auto flex items-center justify-between gap-2.5 flex-nowrap">
           
-          {/* Desktop Left: Brand Identity & Status */}
-          <div className="hidden md:flex items-center gap-3">
-            <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#f24c27] to-[#ff7a59] p-0.5 shadow-lg shadow-[#f24c27]/30 group-hover:scale-105 transition-transform">
+          {/* Desktop Left: Brand Identity */}
+          <div className="hidden md:flex items-center gap-2.5 shrink-0">
+            <Link to="/" className="flex items-center gap-2.5 group">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#f24c27] to-[#ff7a59] p-0.5 shadow-md shadow-[#f24c27]/30 group-hover:scale-105 transition-transform">
                 <div className="w-full h-full bg-[#08080c] rounded-full flex items-center justify-center">
-                  <Sparkles className="w-4 h-4 text-[#f24c27] animate-pulse" />
+                  <Sparkles className="w-3.5 h-3.5 text-[#f24c27] animate-pulse" />
                 </div>
               </div>
-              <div className="flex items-baseline gap-1.5">
+              <div className="flex items-baseline gap-1">
                 <span className="text-base font-extrabold tracking-tight text-white uppercase font-mono">
                   CINEMIND
                 </span>
-                <span className="text-xs font-extrabold text-[#f24c27] tracking-wider uppercase">
+                <span className="text-xs font-black text-[#f24c27] tracking-wider uppercase">
                   AI
                 </span>
               </div>
             </Link>
-
-            {/* Breadcrumb Status Pill */}
-            <div className="hidden lg:flex items-center pl-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-white/20 mx-1.5" />
-              <span className="text-xs text-emerald-400 font-bold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>{currentViewTitle}</span>
-              </span>
-            </div>
           </div>
 
           {/* Desktop Center: Navigation Links */}
-          <div className="hidden md:flex items-center gap-1 bg-white/[0.04] p-1.5 rounded-full border border-white/[0.08]">
+          <div className="hidden md:flex items-center gap-0.5 lg:gap-1 bg-white/[0.04] p-1 rounded-full border border-white/[0.08] shrink-0">
             {navLinks.map((link) => {
               const Icon = link.icon;
               const basePath = link.to.split('/')[1];
@@ -206,49 +197,43 @@ export const Navbar: React.FC = () => {
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`flex items-center gap-2 px-3.5 py-1.5 rounded-full text-sm font-semibold transition-all ${
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs xl:text-sm font-semibold transition-all whitespace-nowrap ${
                     active
-                      ? 'bg-white text-black shadow-lg scale-102 font-bold'
+                      ? 'bg-white text-black shadow-md font-bold'
                       : 'text-[#d4d4e2] hover:text-white hover:bg-white/[0.08]'
                   }`}
                 >
-                  <Icon className={`w-4 h-4 ${active ? 'text-black' : 'text-[#a0a0ab]'}`} />
+                  <Icon className={`w-3.5 h-3.5 ${active ? 'text-black' : 'text-[#a0a0ab]'}`} />
                   <span>{link.label}</span>
                 </Link>
               );
             })}
           </div>
 
-          {/* Desktop Right: Quick Action Controls */}
-          <div className="hidden md:flex items-center gap-2.5">
+          {/* Desktop Right: Quick Action Controls & User Identity */}
+          <div className="hidden md:flex items-center gap-2 shrink-0">
             <button 
               onClick={triggerSurpriseMe}
               title="Fast Mood Matching"
-              className="evocuir-glass-pill px-3.5 py-2 flex items-center gap-2 text-sm font-semibold text-white hover:border-[#f24c27] transition"
+              className="evocuir-glass-pill px-3 py-1.5 flex items-center gap-1.5 text-xs font-semibold text-white hover:border-[#f24c27] transition whitespace-nowrap"
             >
-              <Shuffle className="w-4 h-4 text-[#f24c27]" />
+              <Shuffle className="w-3.5 h-3.5 text-[#f24c27]" />
               <span className="hidden xl:inline">Surprise Me</span>
             </button>
 
-            <Link
-              to="/discover"
-              className="btn-evo-accent !py-2 !px-4 !text-sm !shadow-md"
-            >
-              <Search className="w-3.5 h-3.5" />
-              <span>Discover</span>
-            </Link>
-
             {/* User Auth Status Pill */}
             {!isGuest && user ? (
-              <div className="flex items-center gap-2 evocuir-glass-pill px-3 py-1.5 border border-white/10 shadow-sm">
-                <div className="w-6 h-6 rounded-full bg-[#f24c27]/20 border border-[#f24c27]/40 text-[#f24c27] flex items-center justify-center text-xs font-bold">
-                  {user.name.charAt(0).toUpperCase()}
+              <div className="flex items-center gap-2 evocuir-glass-pill px-3 py-1.5 border border-white/10 shadow-sm shrink-0">
+                <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-[#f24c27] to-[#ff7a59] text-white flex items-center justify-center text-xs font-black shadow-sm shrink-0">
+                  {user.name ? user.name.charAt(0).toUpperCase() : 'U'}
                 </div>
-                <span className="text-xs font-bold text-white max-w-[85px] truncate">{user.name}</span>
+                <span className="text-xs font-bold text-white capitalize max-w-[85px] truncate">
+                  {user.name}
+                </span>
                 <button 
                   onClick={logout}
                   title="Sign Out"
-                  className="text-white/40 hover:text-white transition ml-0.5"
+                  className="text-white/40 hover:text-rose-400 transition ml-0.5 p-0.5 shrink-0"
                 >
                   <LogOut className="w-3.5 h-3.5" />
                 </button>
@@ -256,7 +241,7 @@ export const Navbar: React.FC = () => {
             ) : (
               <Link
                 to="/login"
-                className="evocuir-glass-pill px-3.5 py-2 flex items-center gap-1.5 text-xs font-bold text-[#d4d4e2] hover:text-white hover:border-[#f24c27] transition"
+                className="evocuir-glass-pill px-3.5 py-1.5 flex items-center gap-1.5 text-xs font-bold text-white hover:border-[#f24c27] transition whitespace-nowrap"
               >
                 <LogIn className="w-3.5 h-3.5 text-[#f24c27]" />
                 <span>Sign In</span>
